@@ -43,7 +43,7 @@ a:hover {
 }
 
 a:visited {
-  color: #a0a;
+  color: #7b7b7b;
 }
 
 table {
@@ -67,10 +67,13 @@ ul.posts {
   }
 
   ul.posts span {
-    color: #aaa;
+    color: #000;
     font-family: Monaco, "Courier New", monospace;
-    font-size: 80%;
-  }
+    font-size:80%;
+    font-size: 8px;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
 
 /*****************************************************************************/
 /*
@@ -93,7 +96,7 @@ ul.posts {
 }
 
   .site .title a {
-    color: #a00;
+    color: #37674f;
     text-decoration: none;
   }
 
@@ -102,10 +105,11 @@ ul.posts {
   }
 
   .site .title a.extra {
-    color: #aaa;
-    text-decoration: none;
-    margin-left: 1em;
-  }
+   color: #aaa;
+   text-decoration: none;
+   margin-left: 1em;
+   text-transform: capitalize;
+}
 
   .site .title a.extra:hover {
     color: black;
