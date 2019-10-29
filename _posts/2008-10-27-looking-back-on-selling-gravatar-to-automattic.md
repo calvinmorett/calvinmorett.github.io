@@ -1,6 +1,6 @@
 ---
 layout: post
-title: post title
+title: Hello Test Template
 ---
 
 {{ page.title }}
