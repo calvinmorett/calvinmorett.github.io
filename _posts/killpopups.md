@@ -1,12 +1,12 @@
----
+---	---
 layout: post
-title: 'JS Applet to Kill Popups'
----
+title: JS Applet to Kill Popups
+---	---
 
 {{ page.title }}
 ================
 
-<p class="meta">Applet</p>
+<p class="meta">Code, Applet, Tutorial, Marketing</p>
 
 ### JS Applet to Kill Popups
 
