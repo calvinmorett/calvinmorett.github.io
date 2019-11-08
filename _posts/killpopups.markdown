@@ -6,7 +6,7 @@ title: 'JS Applet to Kill Popups'
 {{ page.title }}
 ================
 
-<p class="meta">Code</p>
+<p class="meta">Applet</p>
 
 ### JS Applet to Kill Popups
 
@@ -20,10 +20,12 @@ And that is what this post is about. I'm here to help you get rid of the popup w
 
 Javascript applets are little pieces of javascript that can do everything from modify a website you’re on in a variety of ways, with this we're going to kill anything that floats above the content.
 
+Create Applet(clickable bookmark)
+
 - Open a New Tab in Chrome. Command+T on a Mac, Ctrl+T on a Windows.
 - Right click on the Bookmarks Toolbar.
 - Select “Add Page” from the contextual menu that appears.
-- Give the Bookmark a name, I've called mine -popup.
+- Give the Bookmark a name, I've called mine `-popup`.
 - Paste the Javascript applet into the URL field.
 - Save.
 
@@ -32,6 +34,6 @@ Applet Code:
 javascript:(function()%7B(function()%7Bdocument.body.style.overflow %3D 'auto'%3B(function () %7Bvar i%2C elements %3D document.querySelectorAll('body *')%3Bfor (i %3D 0%3B i < elements.length%3B i%2B%2B) %7Bif (getComputedStyle(elements%5Bi%5D).position %3D%3D%3D 'fixed') %7Belements%5Bi%5D.parentNode.removeChild(elements%5Bi%5D)%3B%7D%7D%7D)()%7D)()%7D)()
 ```
 
-Next, I want you to find a website that bugs you. After you visit it, write down from 1-10 pain rating of your experience. Or really, just when the pop-up shows up all you have to do is click the Applet you just created and it should remove the overlays on the page. 
+Next, I want you to find a website that bugs you. After you visit it, write down using a scale from 1 to 10, your pain rating of your experience. Or really, just when the pop-up shows click the Applet. It should remove the pop-ups and overlays on the page!
 
-Note: it's not permanant and yes, sometimes it has adverse affects, like removing the navigation bar or some other overlaying elements on the page that aren't the target. Regardless, it has a lot of uses and this is just one of them, I reccomend playing around with it, if it removes an element that you didn't intend to remove, just refresh the page and endure the overlays.
+Note: If you used the applet and it removed elements don't worry! Just refresh. It's not permanant. But yes, sometimes it has adverse affects, like removing the navigation bar or some other overlaying elements on the page that aren't the target. Regardless, it has a lot of uses and this is just one of them, I reccomend playing around with it, if it removes an element that you didn't intend to remove, just refresh the page and endure the overlays.
