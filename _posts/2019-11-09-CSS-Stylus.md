@@ -30,15 +30,14 @@ Firefox download: https://addons.mozilla.org/en-US/firefox/addon/styl-us/
 
 
 
-[]: # (---
-layout: post
-title: post title
----
+[]: # " ---"
+[]: # "  layout: post"
+[]: # "  title: post title"
+[]: # " ---"
 
-{{ page.title }}
-================
-<!--Available Meta Tags: Code, Applet, Tutorial, Utility, Marketing -->
-<p class="meta">Code, Applet, Tutorial, Utility, Marketing</p>
+[]: # " {{ page.title }}"
+[]: # " ================"
+[]: # " <!--Available Meta Tags: Code, Applet, Tutorial, Utility, Marketing -->"
+[]: # " <p class="meta">Code, Applet, Tutorial, Utility, Marketing</p>"
 
-### First Bold Heading
-)
+[]: # " ### First Bold Heading"
