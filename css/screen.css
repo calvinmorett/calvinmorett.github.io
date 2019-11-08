@@ -177,8 +177,30 @@ ul.posts span {
     border: 1px solid #ddd;
     background-color: #eef;
     padding: 0 .4em;
-  }
-
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	overflow: auto;
+	overflow-y: hidden;
+	font-size: 12px;
+	line-height: 20px;
+	background: #efefef;
+	border: 1px solid #777;
+	padding: 10px;
+	color: #333;
+}
+@media print {
+	pre {
+		overflow-x: auto;
+		white-space: pre-wrap;
+		white-space: -moz-pre-wrap !important;
+		white-space: -pre-wrap;
+		white-space: -o-pre-wrap;
+		word-wrap: break-word;
+		background: #fff;
+	}
+}
   #post ul,
   #post ol {
     margin-left: 1.35em;
