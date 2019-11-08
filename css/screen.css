@@ -28,18 +28,16 @@ h1 {
   color: #ccc;
   margin-bottom: 1em;
 }
-#home h1{
+#home h1 {
     color: #000000;
     margin-bottom: 1em;
     text-transform: uppercase;
-    font-size: 10px;
-    letter-spacing: 1px;
+    font-size: 11px;
     font-weight: bold;
-    box-shadow: 0 0 0 1px;
-    padding: 4px 8px;
-    display: inline;
+    box-shadow: 0 2px;
+    padding: 5px 8px 4px 8px;
     background: #e0e0e0;
-    border-radius: 3px;
+    border-radius: 0;
 }
 p {
   margin: 1em 0;
