@@ -33,6 +33,8 @@ Applet Code:
 javascript:(function()%7B(function()%7Bdocument.body.style.overflow %3D 'auto'%3B(function () %7Bvar i%2C elements %3D document.querySelectorAll('body *')%3Bfor (i %3D 0%3B i < elements.length%3B i%2B%2B) %7Bif (getComputedStyle(elements%5Bi%5D).position %3D%3D%3D 'fixed') %7Belements%5Bi%5D.parentNode.removeChild(elements%5Bi%5D)%3B%7D%7D%7D)()%7D)()%7D)()
 ```
 
+![You can also create this by editing a bookmark and add the code like this](/images/-popups.png "Popup Applet")
+
 Next, I want you to find a website that bugs you. After you visit it, write down using a scale from 1 to 10, your pain rating of your experience. Or really, just when the pop-up shows click the Applet. It should remove the pop-ups and overlays on the page!
 
 Note: If you used the applet and it removed elements don't worry! Just refresh. It's not permanant. But yes, sometimes it has adverse affects, like removing the navigation bar or some other overlaying elements on the page that aren't the target. Regardless, it has a lot of uses and this is just one of them, I reccomend playing around with it, if it removes an element that you didn't intend to remove, just refresh the page and endure the overlays.
