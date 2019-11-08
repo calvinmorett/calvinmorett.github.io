@@ -5,6 +5,7 @@ title: JS Applet to Kill Pop-ups
 
 {{ page.title }}
 ================
+<p class="meta">Code, Applet, Tutorial, Utility, Marketing</p>
 
 ### What's the big deal? Expanding on what's going on, and why this might be useful.
 
