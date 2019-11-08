@@ -1,7 +1,7 @@
----	---
+---
 layout: post
 title: JS Applet to Kill Popups
----	---
+---
 
 {{ page.title }}
 ================
