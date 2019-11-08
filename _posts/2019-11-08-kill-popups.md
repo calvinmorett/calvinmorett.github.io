@@ -1,14 +1,12 @@
 ---
 layout: post
-title: JS Applet to Kill Popups
+title: JS Applet to Kill Pop-ups
 ---
 
 {{ page.title }}
 ================
 
-<p class="meta">Code, Applet, Tutorial, Marketing</p>
-
-### JS Applet to Kill Popups
+### What's the big deal? Expanding on what's going on, and why this might be useful.
 
 With a lot of businesses only operating in the digital space these days, more importance of connecting with their content-consumers(readers), users, and potential customers these days is involved and has a lot of depth. A significant thing I seem to hear a lot for digital marketers is collecting emails; if you're not doing that in 2019, you're apparently doing it wrong. Most of the idea of digital marketings depth seems to shift the web into a landscape of websites that have the same element and what we all thought was a thing of the past: Pop-ups.
 
@@ -16,7 +14,7 @@ Some digital business do it well and embedd the email sign-ups along their conte
 
 And that is what this post is about. I'm here to help you get rid of the popup with an JS Applet that I found on the web and has served me well in avoiding the new norm of website pop-up blocks.
 
-### Expanding
+### Explaining how to create an Applet, and in this case kill pop-up overlays
 
 Javascript applets are little pieces of javascript that can do everything from modify a website you’re on in a variety of ways, with this we're going to kill anything that floats above the content.
 
