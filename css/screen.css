@@ -74,12 +74,10 @@ ul.posts {
     line-height: 1.4;
 }
 ul.posts span {
-    color: #c7c7c7;
-    font-family: sans-serif;
+    color: #9E9E9E;
+    font-family: monospace;
     font-size: 80%;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    vertical-align: middle;
+    letter-spacing: 0;
 }
 
 /*****************************************************************************/
@@ -243,7 +241,7 @@ ul.posts span {
     font-size: 11px;
 }
 #related ul.posts {
-    list-style-type: disc;
+    list-style-type: none;
     margin: 1.5em 0;
     line-height: .5;
 }
