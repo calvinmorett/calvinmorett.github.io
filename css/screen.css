@@ -44,13 +44,14 @@ p {
 }
 
 a,a:active,a:visited {
+    text-decoration:none;
     color: #1275ca;
     font-weight: bold;
 }
 
 a:hover {
+  text-decoration:underline;
   color: black;
-  box-shadow:0 1px 0 0;
 }
 
 
