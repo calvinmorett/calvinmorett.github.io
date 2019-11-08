@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 'JS Applet to Kill Popups'
-author: calvin
 ---
 
 {{ page.title }}
