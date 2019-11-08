@@ -71,12 +71,8 @@ ul.posts {
     list-style-type: korean-hanja-formal;
     list-style-type: korean-hanja-formal;
     margin: 2em 0;
+    line-height: 1.4;
 }
-
-  ul.posts li {
-    line-height: 1.2;
-  }
-
 ul.posts span {
     color: #c7c7c7;
     font-family: sans-serif;
