@@ -237,12 +237,16 @@ ul.posts span {
     margin: 0;
     padding-bottom: 0;
     line-height: 1;
-    box-shadow: 0 2px, 0 -1px;
+    box-shadow: 0 0, 0 -1px;
     padding: 8px;
-    color: #607d8b;
+    color: #4CAF50;
+    font-size: 11px;
 }
 #related ul.posts {
     list-style-type: disc;
     margin: 1.5em 0;
     line-height: .5;
+}
+#related a,#related a:active,#related a:visited {
+    color: #4CAF50;
 }
