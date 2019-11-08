@@ -242,8 +242,7 @@ ul.posts span {
     color: #607d8b;
 }
 #related ul.posts {
-    list-style-type: korean-hanja-formal;
-    list-style-type: korean-hanja-formal;
+    list-style-type: disc;
     margin: 1.5em 0;
     line-height: .5;
 }
