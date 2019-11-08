@@ -233,6 +233,17 @@ ul.posts span {
   margin-top: 2em;
 }
 
-  #related h2 {
-    margin-bottom: 1em;
-  }
+#related h2 {
+    margin: 0;
+    padding-bottom: 0;
+    line-height: 1;
+    box-shadow: 0 2px, 0 -1px;
+    padding: 8px;
+    color: #607d8b;
+}
+#related ul.posts {
+    list-style-type: korean-hanja-formal;
+    list-style-type: korean-hanja-formal;
+    margin: 1.5em 0;
+    line-height: .5;
+}
