@@ -7,6 +7,8 @@ title: JS Applet to Kill Pop-ups
 ================
 <p class="meta">Code, Applet, Tutorial, Utility, Marketing</p>
 
+![Pop-up Hero](/images/-popup-hero.jpg "Free, Just enter your bank info!")
+
 ### What's the big deal? Expanding on what's going on, and why this might be useful.
 
 With a lot of businesses only operating in the digital space these days, more importance of connecting with their content-consumers(readers), users, and potential customers these days is involved and has a lot of depth. A significant thing I seem to hear a lot for digital marketers is collecting emails; if you're not doing that in 2019, you're apparently doing it wrong. Most of the idea of digital marketings depth seems to shift the web into a landscape of websites that have the same element and what we all thought was a thing of the past: Pop-ups.
