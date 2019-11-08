@@ -4,62 +4,74 @@
 /*
 /*****************************************************************************/
 
+
 /* Global Reset */
 
 * {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
-html, body {
-  height: 100%;
+html,
+body {
+	height: 100%;
 }
 
 body {
-  background-color: #eaeaea;
-  font: 14px 'Roboto', Helvetica, Arial, sans-serif;
+	background-color: #eaeaea;
+	font: 14px 'Roboto', Helvetica, Arial, sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 100%;
 }
+
 h1 {
-    color: #fff;
-    margin-bottom: 1em;
-    font-size: 2em;
-    background: #607D8B;
-    padding: 10px;
-}
-#home h1 {
-    color: #fff;
-    margin-bottom: 1em;
-    text-transform: uppercase;
-    font-size: 11px;
-    font-weight: bold;
-    padding: 5px 8px 4px 8px;
-    background: #607D8B;
-    border-radius: 0;
-}
-p {
-  margin: 1em 0;
+	color: #fff;
+	margin-bottom: 1em;
+	font-size: 2em;
+	background: #607D8B;
+	padding: 10px;
 }
 
-a,a:active,a:visited {
-    text-decoration:none;
-    color: #1275ca;
-    font-weight: bold;
+#home h1 {
+	color: #fff;
+	margin-bottom: 1em;
+	text-transform: uppercase;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 5px 8px 4px 8px;
+	background: #607D8B;
+	border-radius: 0;
+}
+
+p {
+	margin: 1em 0;
+}
+
+a,
+a:active,
+a:visited {
+	text-decoration: none;
+	color: #1275ca;
+	font-weight: bold;
 }
 
 a:hover {
-  text-decoration:underline;
-  color: black;
+	text-decoration: underline;
+	color: black;
 }
-
 
 table {
-  font-size: inherit;
-  font: 100%;
+	font-size: inherit;
+	font: 100%;
 }
+
 
 /*****************************************************************************/
 /*
@@ -68,17 +80,19 @@ table {
 /*****************************************************************************/
 
 ul.posts {
-    list-style-type: korean-hanja-formal;
-    list-style-type: korean-hanja-formal;
-    margin: 2em 0;
-    line-height: 1.4;
+	list-style-type: korean-hanja-formal;
+	list-style-type: korean-hanja-formal;
+	margin: 2em 0;
+	line-height: 1.4;
 }
+
 ul.posts span {
-    color: #9E9E9E;
-    font-family: monospace;
-    font-size: 80%;
-    letter-spacing: 0;
+	color: #9E9E9E;
+	font-family: monospace;
+	font-size: 80%;
+	letter-spacing: 0;
 }
+
 
 /*****************************************************************************/
 /*
@@ -87,72 +101,73 @@ ul.posts span {
 /*****************************************************************************/
 
 .site {
-  font-size: 110%;
-  text-align: justify;
-  width: 42em;
-  margin: 3em auto 2em auto;
-  line-height: 1.5em;
+	font-size: 110%;
+	text-align: justify;
+	width: 42em;
+	margin: 3em auto 2em auto;
+	line-height: 1.5em;
 }
 
 .title {
-  color: #a00;
-  font-weight: bold;
-  margin-bottom: 2em;
+	color: #a00;
+	font-weight: bold;
+	margin-bottom: 2em;
 }
 
 .site .title a {
-    color: #000000;
-    text-decoration: none;
-  }
+	color: #000000;
+	text-decoration: none;
+}
 
-  .site .title a:hover {
-    color: black;
-  }
+.site .title a:hover {
+	color: black;
+}
 
 .site .title a.extra {
-    color: #2860ff;
-   text-decoration: none;
-   margin-left: 1em;
-   text-transform: capitalize;
+	color: #2860ff;
+	text-decoration: none;
+	margin-left: 1em;
+	text-transform: capitalize;
 }
 
-  .site .title a.extra:hover {
-    color: black;
-  }
+.site .title a.extra:hover {
+	color: black;
+}
 
-  .site .meta {
-    color: #aaa;
-  }
+.site .meta {
+	color: #aaa;
+}
 
 .site .footer {
-    font-size: 80%;
-    color: #000000;
-    border-bottom: 1px solid #ccc;
-    box-shadow: 0 -2px 0 0 #000000;
-    border-top: 0;
-    margin-top: 2em;
-    overflow: hidden;
-    line-height: 1.5;
+	font-size: 80%;
+	color: #000000;
+	border-bottom: 1px solid #ccc;
+	box-shadow: 0 -2px 0 0 #000000;
+	border-top: 0;
+	margin-top: 2em;
+	overflow: hidden;
+	line-height: 1.5;
 }
 
-    .site .footer .contact {
-      float: left;
-      margin-right: 3em;
-    }
+.site .footer .contact {
+	float: left;
+	margin-right: 3em;
+}
 
 .site .footer .contact a {
-    color: #2860ff;
+	color: #2860ff;
 }
 
-    .site .footer .rss {
-      margin-top: 1.1em;
-      margin-right: -.2em;
-      float: right;
-    }
+.site .footer .rss {
+	margin-top: 1.1em;
+	margin-right: -.2em;
+	float: right;
+}
 
-      .site .footer .rss img {
-        border: 0;
-      }
+.site .footer .rss img {
+	border: 0;
+}
+
 
 /*****************************************************************************/
 /*
@@ -160,16 +175,15 @@ ul.posts span {
 /*
 /*****************************************************************************/
 
-#post {
+#post {}
 
-}
 
-  /* standard */
+/* standard */
 
-  #post pre {
-    border: 1px solid #ddd;
-    background-color: #eef;
-    padding: 0 .4em;
+#post pre {
+	border: 1px solid #ddd;
+	background-color: #eef;
+	padding: 0 .4em;
 	box-sizing: border-box;
 	width: 100%;
 	padding: 0;
@@ -183,6 +197,7 @@ ul.posts span {
 	padding: 10px;
 	color: #333;
 }
+
 @media print {
 	pre {
 		overflow-x: auto;
@@ -194,57 +209,63 @@ ul.posts span {
 		background: #fff;
 	}
 }
-  #post ul,
-  #post ol {
-    margin-left: 1.35em;
-  }
 
-  #post code {
-    border: 1px solid #ddd;
-    background-color: #eef;
-    font-size: 85%;
-    padding: 0 .2em;
-  }
+#post ul,
+#post ol {
+	margin-left: 1.35em;
+}
 
-    #post pre code {
-      border: none;
-    }
+#post code {
+	border: 1px solid #ddd;
+	background-color: #eef;
+	font-size: 85%;
+	padding: 0 .2em;
+}
 
-  #post img {
-    max-width: 42em;
-    padding: 1em 0;
-  }
+#post pre code {
+	border: none;
+}
 
-  /* terminal */
+#post img {
+	max-width: 42em;
+	padding: 1em 0;
+}
 
-  #post pre.terminal {
-    border: 1px solid black;
-    background-color: #333;
-    color: white;
-  }
 
-  #post pre.terminal code {
-    background-color: #333;
-  }
+/* terminal */
+
+#post pre.terminal {
+	border: 1px solid black;
+	background-color: #333;
+	color: white;
+}
+
+#post pre.terminal code {
+	background-color: #333;
+}
 
 #related {
-  margin-top: 2em;
+	margin-top: 2em;
 }
 
 #related h2 {
-    margin: 0;
-    padding-bottom: 0;
-    line-height: 1;
-    box-shadow: 0 0, 0 -1px;
-    padding: 8px;
-    color: #4CAF50;
-    font-size: 11px;
+	margin: 0;
+	padding-bottom: 0;
+	line-height: 1;
+	box-shadow: 0 0, 0 -2px #777;
+	padding: 8px;
+	color: #4CAF50;
+	font-size: 11px;
 }
+
 #related ul.posts {
-    list-style-type: none;
-    margin: 1.5em 0;
-    line-height: .5;
+	list-style-type: none;
+	margin: 1.5em 0;
+	line-height: .5;
 }
-#related a,#related a:active,#related a:visited {
-    color: #4CAF50;
+
+#related a,
+#related a:active,
+#related a:visited {
+	color: #4CAF50;
 }
