@@ -16,7 +16,7 @@ html, body {
 }
 
 body {
-  background-color: white;
+  background-color: #eaeaea;
   font: 13.34px helvetica, arial, clean, sans-serif;
   *font-size: small;
   text-align: center;
@@ -30,7 +30,19 @@ h1 {
   color: #ccc;
   margin-bottom: 1em;
 }
-
+#home h1{
+    color: #000000;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    box-shadow: 0 0 0 1px;
+    padding: 4px 8px;
+    display: inline;
+    background: #e0e0e0;
+    border-radius: 3px;
+}
 p {
   margin: 1em 0;
 }
@@ -96,8 +108,8 @@ ul.posts span {
   margin-bottom: 2em;
 }
 
-  .site .title a {
-    color: #37674f;
+.site .title a {
+    color: #000000;
     text-decoration: none;
   }
 
@@ -105,8 +117,8 @@ ul.posts span {
     color: black;
   }
 
-  .site .title a.extra {
-   color: #aaa;
+.site .title a.extra {
+    color: #2860ff;
    text-decoration: none;
    margin-left: 1em;
    text-transform: capitalize;
@@ -120,10 +132,11 @@ ul.posts span {
     color: #aaa;
   }
 
-  .site .footer {
+.site .footer {
     font-size: 80%;
-    color: #666;
-    box-shadow: 0 -1px 0 0 #cacaca;
+    color: #000000;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0 -2px 0 0 #000000;
     border-top: 0;
     margin-top: 2em;
     overflow: hidden;
@@ -135,9 +148,9 @@ ul.posts span {
       margin-right: 3em;
     }
 
-      .site .footer .contact a {
-        color: #8085C1;
-      }
+.site .footer .contact a {
+    color: #2860ff;
+}
 
     .site .footer .rss {
       margin-top: 1.1em;
