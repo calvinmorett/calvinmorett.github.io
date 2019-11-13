@@ -282,9 +282,10 @@ ul.posts span {
 	color: #4CAF50;
 }
 @media only screen and (max-width: 600px) {
-  *,html,body{font-size:100%;}
+	*,html,body{font-size:100%;}
+	html{
+    background-color: #ffffff;}
   body {
-    background-color: #ffffff;
     font-size:calc(1vw + 24px);
   }
 }
