@@ -242,4 +242,8 @@
      h1{
          line-height: 1.1;
     }
+     #post pre {
+         font-size: 1.1em;
+         padding: 1.1em .5em;
+     }
 }
