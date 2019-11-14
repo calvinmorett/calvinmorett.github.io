@@ -205,14 +205,14 @@
  #related {
      margin-top: 2em;
 }
- #related h2 {
+#related h2 {
      margin: 0;
      padding-bottom: 0;
      line-height: 1;
-     box-shadow: 0 0, 0 -2px #777;
+     box-shadow: 0 0, 0 -2px #000;
      padding: 8px;
-     color: #4CAF50;
-     font-size: 11px;
+     color: #000;
+     font-size: 1em;
 }
  #related ul.posts {
      list-style-type: none;
