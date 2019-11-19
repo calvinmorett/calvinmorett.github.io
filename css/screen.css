@@ -159,12 +159,17 @@
      margin: 0;
      overflow: auto;
      overflow-y: hidden;
-     font-size: 12px;
+     font-size: 100%;
      line-height: 20px;
      background: #efefef;
-     border: 1px solid #777;
+     box-shadow:0 0 .13em .13em #333;
      padding: 10px;
      color: #333;
+     resize: both;
+     overflow: auto;
+     background: #40424a;
+     color: #fff;
+     padding: 10px;
 }
  @media print {
      pre {
@@ -175,6 +180,7 @@
          white-space: -o-pre-wrap;
          word-wrap: break-word;
          background: #fff;
+	    font-size:22px;
     }
 }
  #post ul, #post ol {
@@ -183,8 +189,11 @@
  #post code {
      border: 1px solid #ddd;
      background-color: #eef;
-     font-size: 85%;
+	font-size:22px;
      padding: 0 .2em;
+     background: #40424a;
+     color: #fff;
+     padding: 10px;
 }
  #post pre code {
      border: none;
