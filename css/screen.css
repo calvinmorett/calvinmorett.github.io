@@ -26,7 +26,7 @@
  html {
      box-sizing: border-box;
      background-color: #eaeaea;
-     font: 14px 'Roboto', Helvetica, Arial, sans-serif;
+     font: 14px Helvetica, Arial, sans-serif;
 }
  h1, h2, h3, h4, h5, h6 {
      font-size: 100%;
@@ -53,9 +53,6 @@
 }
  p {
      margin: 1em 0;
-}
- p em {
-      font-family: 'Libre Baskerville', serif;
 }
  a, a:active, a:visited {
      text-decoration: none;
@@ -167,6 +164,7 @@
      overflow: auto;
      background: #fff;
      color: #c7254e;
+     font-family: monospace;
 }
  @media print {
      pre {
@@ -178,6 +176,7 @@
          word-wrap: break-word;
          background: #fff;
          color: #c7254e;
+         font-family: monospace;
     }
 }
  #post ul, #post ol {
