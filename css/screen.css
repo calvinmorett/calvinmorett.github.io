@@ -72,11 +72,22 @@
 /* Home 
 /* 
 /*****************************************************************************/
- ul.posts {
+ 
+ ul.posts li:before {
+    list-style-type: none;
+    position: absolute;
+    margin-left: -1.5em;
+    padding-right: 1em;
+}
+ul.posts {
      list-style-type: square;
      margin: .8em 0 4em;
      line-height: 1.4;
  }
+ ul.posts li:hover:before {
+     list-style-type: none;
+     content: '\21D2';
+}
  ul.posts span {
      color: #9E9E9E;
      font-size: 80%;
