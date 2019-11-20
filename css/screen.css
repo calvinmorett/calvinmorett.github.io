@@ -185,11 +185,11 @@
      margin-left: 1.35em;
 }
  #post code {
-     border: 0;
-     background-color: #eef;
-     background: #40424a;
+     border: none;
      color: #fff;
-     padding: 2px 11px;
+}
+code, kbd, pre, samp {
+    font-family: monospace,monospace;
 }
  #post pre code {
      border: none;
@@ -197,6 +197,17 @@
  #post img {
      max-width: 42em;
      padding: 1em 0;
+}
+code, kbd {
+    font-size: 1em;
+}
+code, kbd {
+    padding: 2px 4px;
+}
+code {
+    color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 4px;
 }
 /* terminal */
  #post pre.terminal {
