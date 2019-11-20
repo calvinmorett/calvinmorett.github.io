@@ -119,11 +119,15 @@ ul.posts {
      margin-bottom: 2em;
 }
  .site .title a {
-     color: #000000;
+     color: #bbbbbb;
      text-decoration: none;
-}
+     letter-spacing: 1px;
+     text-transform: uppercase;
+     font-variant: all-small-caps;
+ }
  .site .title a:hover {
-     color: black;
+     color: #bbbbbb;
+     text-decoration: underline;
 }
  .site .title a.extra {
      color: #2860ff;
