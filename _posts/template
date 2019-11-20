@@ -5,7 +5,9 @@ title: post title
 
 {{ page.title }}
 ================
-<!--Available Meta Tags: Code, Applet, Tutorial, Utility, Marketing -->
-<p class="meta">Code, Applet, Tutorial, Utility, Marketing</p>
+<!--Available Meta Tags: Code, Design, Bookmarklet, Tutorial, Utility, Marketing -->
+<p class="meta">....</p>
+
+![TITLE Hero](/images/-TITLE-hero.jpg "...")
 
 ### First Bold Heading
