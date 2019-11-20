@@ -39,7 +39,7 @@ JavaScript:(function()%7B(function()%7Bdocument.body.style.overflow %3D 'auto'%3
 
 Next, find a website that bugs you. Write down using a scale from 1 to 10, your pain rating of your experience... or really, just when the overlay shows, just click the Bookmarklet you've just created. It should remove the pop-ups and overlays on the page, no more clutter.
 
-Note: If you used the Bookmarklet and it removed elements don't worry! Just refresh. It's not permanent. But yes, sometimes it has adverse affects, like removing the navigation bar or some other overlaying elements on the page that aren't the target. Regardless, it has a lot of uses and this is just one of them, I reccomend playing around with it, if it removes an element that you didn't intend to remove, just refresh the page and endure the overlays.
+_Note: If you used the Bookmarklet and it removed elements don't worry! Just refresh. It's not permanent. But yes, sometimes it has adverse affects, like removing the navigation bar or some other overlaying elements on the page that aren't the target. Regardless, it has a lot of uses and this is just one of them, I reccomend playing around with it, if it removes an element that you didn't intend to remove, just refresh the page and endure the overlays._
 
 ![Blammmo](/images/blam.gif "
-Pop-ups get Blammarklet'd")
+Pop-ups get Blam'd")
