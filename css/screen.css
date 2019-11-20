@@ -54,6 +54,9 @@
  p {
      margin: 1em 0;
 }
+ p em {
+      font-family: 'Libre Baskerville', serif;
+}
  a, a:active, a:visited {
      text-decoration: none;
      color: #1275ca;
