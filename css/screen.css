@@ -79,9 +79,8 @@
  }
  ul.posts span {
      color: #9E9E9E;
-     font-family: monospace;
      font-size: 80%;
-     letter-spacing: 0;
+     letter-spacing: 0.0123em;
 }
 /*****************************************************************************/
 /* 
@@ -120,13 +119,11 @@
      color: #aaa;
 }
  .site .footer {
-     color: #000000;
-     border-bottom: 1px solid #ccc;
-     box-shadow: 0 -2px 0 0 #000000;
-     border-top: 0;
-     margin-top: 2em;
+     color: #000;
+     border-bottom: 1px dotted #9E9E9E;
+     box-shadow: 0 -3px 0 0 #000;
      overflow: hidden;
-     line-height: 1.5;
+     font-size: .63em;
 }
  .site .footer .contact {
      float: left;
