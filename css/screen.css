@@ -73,7 +73,6 @@
 /* Home 
 /* 
 /*****************************************************************************/
- 
 #home ul.posts li:before {
     list-style-type: none;
     position: absolute;
@@ -166,8 +165,6 @@ ul.posts {
 /* Posts 
 /* 
 /*****************************************************************************/
- #post {
-}
 /* standard */
  #post pre {
      box-sizing: border-box;
@@ -177,12 +174,12 @@ ul.posts {
      overflow: auto;
      overflow-y: hidden;
      line-height: 20px;
-     background: #efefef;
      resize: both;
      overflow: auto;
-     background: #fff;
      color: #c7254e;
      font-family: monospace;
+     background: #f9f2f4;
+     box-shadow: 0 0 0 0.1em #c7254e;
 }
  @media print {
      pre {
@@ -222,10 +219,14 @@ code, kbd {
 code, kbd {
     padding: 2px 4px;
 }
-code {
+li code {
     color: #c7254e;
     background-color: #f9f2f4;
     border-radius: 4px;
+    box-shadow: 0 0 0 0.1em #c7254e;
+}
+li pre code {
+    box-shadow:0;
 }
 /* terminal */
  #post pre.terminal {
