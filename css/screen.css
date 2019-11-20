@@ -140,7 +140,8 @@ ul.posts {
  .site .footer .contact {
      float: left;
      margin-right: 3em;
-}
+     line-height: 1.6;
+ }
  .site .footer .contact a {
      color: #2860ff;
 }
