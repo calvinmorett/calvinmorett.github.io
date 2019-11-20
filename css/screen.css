@@ -73,22 +73,27 @@
 /* 
 /*****************************************************************************/
  
- ul.posts li:before {
+#home ul.posts li:before {
     list-style-type: none;
     position: absolute;
     margin-left: -1.5em;
     padding-right: 1em;
     content:'\203A';
 }
+#home ul.posts {
+     list-style-type: none;
+     margin: .8em 0 4em;
+     line-height: 1.4;
+ }
+ #home ul.posts li:hover:before {
+     list-style-type: none;
+     content: '\21D2';
+}
 ul.posts {
      list-style-type: none;
      margin: .8em 0 4em;
      line-height: 1.4;
  }
- ul.posts li:hover:before {
-     list-style-type: none;
-     content: '\21D2';
-}
  ul.posts span {
      color: #9E9E9E;
      font-size: 80%;
