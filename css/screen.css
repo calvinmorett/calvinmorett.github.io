@@ -152,8 +152,6 @@
 }
 /* standard */
  #post pre {
-     background-color: #eef;
-     padding: 0 .4em;
      box-sizing: border-box;
      width: 100%;
      padding: 0;
@@ -162,13 +160,10 @@
      overflow-y: hidden;
      line-height: 20px;
      background: #efefef;
-     padding: 10px;
-     color: #333;
      resize: both;
      overflow: auto;
-     background: #40424a;
-     color: #fff;
-     padding: 10px;
+     background: #fff;
+     color: #c7254e;
 }
  @media print {
      pre {
@@ -179,14 +174,17 @@
          white-space: -o-pre-wrap;
          word-wrap: break-word;
          background: #fff;
+         color: #c7254e;
     }
 }
  #post ul, #post ol {
      margin-left: 1.35em;
 }
  #post code {
-     border: none;
-     color: #fff;
+    border:none;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 4px;
 }
 code, kbd, pre, samp {
     font-family: monospace,monospace;
