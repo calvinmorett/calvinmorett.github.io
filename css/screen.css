@@ -74,7 +74,7 @@
 /*****************************************************************************/
  ul.posts {
      list-style-type: square;
-     margin: 2em 0 4em;
+     margin: .8em 0 4em;
      line-height: 1.4;
  }
  ul.posts span {
