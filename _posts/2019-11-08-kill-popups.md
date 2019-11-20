@@ -41,4 +41,5 @@ Next, find a website that bugs you. Write down using a scale from 1 to 10, your 
 
 Note: If you used the boomkarklet and it removed elements don't worry! Just refresh. It's not permanant. But yes, sometimes it has adverse affects, like removing the navigation bar or some other overlaying elements on the page that aren't the target. Regardless, it has a lot of uses and this is just one of them, I reccomend playing around with it, if it removes an element that you didn't intend to remove, just refresh the page and endure the overlays.
 
-blam
+
+![Blammmo](/images/blam.gif "blam")
