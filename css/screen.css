@@ -21,11 +21,12 @@
 }
  html, body {
      height: 100%;
-     font-size: auto;
+     font-size: 100%;
 }
  html {
      box-sizing: border-box;
-     background-color: #eaeaea;
+     font: 14px Helvetica, Arial, sans-serif;
+     background-color: #f6f7f3;
      font: 14px Helvetica, Arial, sans-serif;
 }
  h1, h2, h3, h4, h5, h6 {
@@ -257,9 +258,6 @@ code {
  @media screen and (max-width: 600px) {
      *, html, body {
          font-size: 100%;
-    }
-     html {
-         background-color: #ffffff;
     }
      body {
          font-size: calc(1vw + 24px);
