@@ -78,9 +78,10 @@
     position: absolute;
     margin-left: -1.5em;
     padding-right: 1em;
+    content:'\203A';
 }
 ul.posts {
-     list-style-type: square;
+     list-style-type: none;
      margin: .8em 0 4em;
      line-height: 1.4;
  }
