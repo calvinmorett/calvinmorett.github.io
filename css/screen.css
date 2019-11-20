@@ -260,8 +260,10 @@ li pre code {
      line-height: .5;
 }
  #related a, #related a:active, #related a:visited {
-     color: #4CAF50;
-}
+     color: #39ff14;
+     box-shadow: inset 0 0 0 10px black, 0 0 0 2px black, 0 0 0 4px;
+     margin-left: 10px;
+ }
  @media screen and (max-width: 600px) {
      *, html, body {
          font-size: 100%;
