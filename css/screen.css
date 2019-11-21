@@ -47,19 +47,19 @@ h1 {
     font-size: 3.6em;
     padding: 32px;
     line-height: 1.2em;
-    position:relative;
+    position: relative;
 }
-#post h1::before{
+#post h1::before {
+    display: inline-block;
     content: "\21B3";
-    display:inline-block;
-    margin:10px;
-    vertical-align:middle; 
-    color:#fff;
-    font-size:1em;
-    padding:0; 
-    position:absolute;
-    top:0;
-    left:-.5em;
+    margin: 10px;
+    vertical-align: middle;
+    color: #fff;
+    font-size: 1em;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: -.5em;
 }
 #home h1 {
     -webkit-font-smoothing: antialiased;
@@ -87,12 +87,12 @@ a:visited {
     color: #fff;
     text-decoration: none;
     box-shadow: 0 1px #111;
-    transition:all .23s ease;
+    transition: all .23s ease;
 }
 a:hover {
     box-shadow: 0 1px;
     text-decoration: none;
-    color:#fff;
+    color: #fff;
 }
 hr {
     margin: 1.5em 0 1em;
@@ -136,8 +136,8 @@ ul.posts span {
     letter-spacing: 0.0123em;
     margin-left: 10px;
 }
-#home ul.posts span{
-    color:#fff;
+#home ul.posts span {
+    color: #fff;
 }
 /*****************************************************************************/
 /* 
@@ -163,9 +163,8 @@ ul.posts span {
     letter-spacing: 1px;
     text-transform: uppercase;
     font-variant: all-small-caps;
-    text-decoration: none;
     box-shadow: none;
-    transition:all .23s ease;
+    transition: all .23s ease;
 }
 .site .title a:hover {
     text-decoration: none;
@@ -177,7 +176,7 @@ ul.posts span {
     text-decoration: none;
     margin-left: 1em;
     text-transform: capitalize;
-    transition:all .23s ease;
+    transition: all .23s ease;
 }
 .site .title a.extra:hover {
     color: #fff;
@@ -266,14 +265,14 @@ samp {
     font-family: monospace, monospace;
 }
 #post pre code {
-        border: none;
-        border-radius:0;
-        overflow-x: auto;
-        white-space: pre-wrap;
-        white-space: -moz-pre-wrap !important;
-        white-space: -pre-wrap;
-        white-space: -o-pre-wrap;
-        word-wrap: break-word;
+    border: none;
+    border-radius: 0;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap !important;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
 }
 #post img {
     max-width: 42em;
