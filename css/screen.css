@@ -279,6 +279,7 @@ samp {
 #post img {
     max-width: 42em;
     padding: 1em 0;
+    width: 100%;
 }
 code,
 kbd {
