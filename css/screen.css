@@ -48,6 +48,18 @@ h1 {
     padding: 32px;
     line-height: 1.2em;
 }
+#post h1::before{
+    content: "\21B3";
+    display:inline-block;
+    margin:10px;
+    vertical-align:middle; 
+    color:#fff;
+    font-size:4em;
+    padding:0; 
+    position:absolute;
+    top:.5em;
+    left:-.5em;
+}
 #home h1 {
     -webkit-font-smoothing: antialiased;
     -webkit-font-smoothing: subpixel-antialiased;
