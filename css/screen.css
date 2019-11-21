@@ -190,7 +190,12 @@ ul.posts span {
     color: var(--linkhover);
 }
 .site .meta {
-    color: var(--mid2);
+    color: #bbb;
+    font-size: 12px;
+    font-family: monospace;
+    box-shadow: 0 0 0 1px;
+    text-transform: uppercase;
+    padding: 8px 16px;
 }
 .site .footer {
     color: var(--lite);
