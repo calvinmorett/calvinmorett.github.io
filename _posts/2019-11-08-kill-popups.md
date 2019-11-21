@@ -13,7 +13,11 @@ title: JS Bookmarklet to Kill Pop-up Overlays
 
 With a lot of businesses only operating in the digital space these days, more importance of connecting with their content-consumers(readers), users, and potential customers these days is involved and has a lot of depth. A significant thing I seem to hear a lot for digital marketers is collecting emails; if you're not doing that in 2019, you're apparently doing it wrong. Most of the idea of digital marketing's depth seems to shift the web into a landscape of websites that have the same element and what we all thought was a thing of the past: Pop-ups.
 
-Some digital business do it well and embed the email sign-ups along their content and not as an overlay, but other websites immediately throw a popup at you explicitly asking for that email. It's annoying enough since GDPR passed, the mandatory additional box asking you to accept their terms of tracking_agreement. These emails collected are used in the hopes they can funnel you into their drip campaigns and annoy the shit out of you, until you feel so hopeless that you buy their xyz. If pop-ups weren't involved I wouldn't be so negative here. You should be collecting emails, but if you have a pop-up to do it, I'm going to find a way to break it.
+Some digital business do it well and embed the email sign-ups along their content and not as an overlay, but other websites immediately throw a popup at you explicitly asking for that email. It's annoying enough since GDPR passed, the mandatory additional box asking you to accept their terms of tracking_agreement. 
+
+These emails collected are used in the hopes they can funnel you into their drip campaigns and annoy the shit out of you. If pop-up overlays weren't involved I wouldn't be so negative here; You should be collecting emails, but if you have an overlay to do it, I'm going to find a way to break it. Also, when I'm reading a news article and a navbar on the bottom and the top of the page obstructs my view from the text, it's plain frustrating!
+
+> You should “own” your audience contact details, rather than optimise for followers on proprietary networks that you need to continually pay to reach.
 
 And that is what this post is about. I'm here to help you get rid of the popup with an JS Bookmarklet that I found on the web and has served me well in avoiding the new norm of website pop-up blocks.
 
