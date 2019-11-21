@@ -55,10 +55,10 @@ h1 {
     margin:10px;
     vertical-align:middle; 
     color:#fff;
-    font-size:3.1em;
+    font-size:1em;
     padding:0; 
     position:absolute;
-    top:.5em;
+    top:0;
     left:-.5em;
 }
 #home h1 {
