@@ -78,7 +78,7 @@ body{color:#fff;}
 }
  a:hover {
      text-decoration: underline;
-     color: black;
+     color: #fff;
 }
  table {
      font-size:100%;
@@ -165,9 +165,9 @@ ul.posts {
      color: #aaa;
 }
  .site .footer {
-     color: #000;
-     border-bottom: 1px dotted #9E9E9E;
-     box-shadow: 0 -3px 0 0 #000;
+     color: #fff;
+     border-bottom: 1px dotted #eee;
+     box-shadow: 0 -3px 0 0 #fff;
      overflow: hidden;
      font-size: .63em;
 }
@@ -177,8 +177,8 @@ ul.posts {
      line-height: 1.6;
  }
  .site .footer .contact a {
-     color: #2860ff;
-}
+     color: #ff0000;
+ }
  .site .footer .rss {
      margin-top: 1.1em;
      margin-right: -.2em;
