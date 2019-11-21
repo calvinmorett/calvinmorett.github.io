@@ -11,13 +11,13 @@
      white-space: normal;
 }
  *, *::before, *::after {
-     -webkit-box-sizing: border-box;
-     box-sizing: border-box;
+     -webkit-box-sizing: inherit;
+     box-sizing: inherit;
      margin: 0;
      padding: 0;
 }
  *, *:before, *:after {
-     box-sizing: border-box;
+     box-sizing: inherit;
      margin: 0;
      padding: 0;
 }
@@ -80,9 +80,6 @@ body{color:#fff;}
  a:hover {
      text-decoration: underline;
      color: #fff;
-}
- table {
-     font-size:100%;
 }
 /*****************************************************************************/
 /* 
