@@ -70,14 +70,16 @@ p {
 a,
 a:active,
 a:visited {
+    font-weight: bold;
     color: #fff;
     text-decoration: none;
-    font-weight: bold;
+    box-shadow: none;
     transition:all .23s ease;
 }
 a:hover {
-    text-decoration: underline;
-    color:#eee;
+    box-shadow: 0 1px;
+    text-decoration: none;
+    color:#fff;
 }
 hr{
     margin:1.5em 0 1em;
@@ -147,10 +149,14 @@ ul.posts span {
     letter-spacing: 1px;
     text-transform: uppercase;
     font-variant: all-small-caps;
+    text-decoration: none;
+    box-shadow: none;
+    transition:all .23s ease;
 }
 .site .title a:hover {
-    color: #d9ffe6;
-    text-decoration: underline;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 0 -1px;
 }
 .site .title a.extra {
     color: #fff;
@@ -161,6 +167,8 @@ ul.posts span {
 }
 .site .title a.extra:hover {
     color: #fff;
+    box-shadow: 0 -1px;
+    text-decoration: none;
 }
 .site .meta {
     color: #fff;
