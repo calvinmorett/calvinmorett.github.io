@@ -3,20 +3,30 @@
 /* Colors 
 /* 
 /*****************************************************************************/
-:root{
-    --link:blue; /* var(--link) */
-    --linkhover:#007eff; /* var(--linkhover) */
-    --tcl:#d9ffe6; /* var(--tcl) */
-    --tclhover:#fff; /* var(--tclhover) */
-    --dark:#111; /* var(--dark) */
-    --dark2:#000; /* var(--dark2) */
-    --mid:#9E9E9E; /* var(--mid) */
-    --mid2:#bbbbbb; /* var(--mid2) */
-    --lite:#fff; /* var(--lite) */
+::root {
+    --link: blue;
+    /* var(--link) */
+    --linkhover: #007eff;
+    /* var(--linkhover) */
+    --tcl: #d9ffe6;
+    /* var(--tcl) */
+    --tclhover: #fff;
+    /* var(--tclhover) */
+    --dark: #111;
+    /* var(--dark) */
+    --dark2: #000;
+    /* var(--dark2) */
+    --mid: #9E9E9E;
+    /* var(--mid) */
+    --mid2: #bbbbbb;
+    /* var(--mid2) */
+    --lite: #fff;
+    /* var(--lite) */
     --blood: #a00;
-    --code:#f9f2f4; /* color: var(--code); */;
-    --code2:#f9f2f4; /* color: var(--code2); */
- 
+    --code: #f9f2f4;
+    /* color: var(--code); */;
+    --code2: #f9f2f4;
+    /* color: var(--code2); */
 }
 /*****************************************************************************/
 /* 
@@ -128,13 +138,7 @@ ul.posts {
     line-height: 1.4;
 }
 ul.posts span {
-    color: #9E9E9E;
-    font-size: 80%;
-    letter-spacing: 0.0123em;
-    margin-left: 10px;
-}
-#site ul.posts span {
-    color: 
+    color: var(--mid);
     font-size: 80%;
     letter-spacing: 0.0123em;
     margin-left: 10px;
@@ -153,7 +157,8 @@ ul.posts span {
     color: var(--lite);
 }
 .title {
-    color: var(--blood); /*#a00;*/
+    color: var(--blood);
+    /*#a00;*/
     font-weight: bold;
     margin-bottom: 2em;
 }
@@ -169,13 +174,13 @@ ul.posts span {
     text-decoration: underline;
 }
 .site .title a.extra {
-    color:  var(--link);
+    color: var(--link);
     text-decoration: none;
     margin-left: 1em;
     text-transform: capitalize;
 }
 .site .title a.extra:hover {
-    color:  var(--linkhover);
+    color: var(--linkhover);
 }
 .site .meta {
     color: var(--mid2);
@@ -306,7 +311,7 @@ li pre code {
 #related a:active,
 #related a:visited {
     color: var(--code);
-    padding:2px 4px;
+    padding: 2px 4px;
     box-shadow: inset 0 0 0 2px var(--code);
     margin-left: 10px;
 }
