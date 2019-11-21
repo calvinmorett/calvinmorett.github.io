@@ -1,35 +1,5 @@
 /*****************************************************************************/
 /* 
-/* Colors 
-/* 
-/*****************************************************************************/
-::root {
-    --link: blue;
-    /* var(--link) */
-    --linkhover: #007eff;
-    /* var(--linkhover) */
-    --tcl: #d9ffe6;
-    /* var(--tcl) */
-    --tclhover: #fff;
-    /* var(--tclhover) */
-    --dark: #111;
-    /* var(--dark) */
-    --dark2: #000;
-    /* var(--dark2) */
-    --mid: #9E9E9E;
-    /* var(--mid) */
-    --mid2: #bbbbbb;
-    /* var(--mid2) */
-    --lite: #fff;
-    /* var(--lite) */
-    --blood: #a00;
-    --code: #f9f2f4;
-    /* color: var(--code); */;
-    --code2: #f9f2f4;
-    /* color: var(--code2); */
-}
-/*****************************************************************************/
-/* 
 /* Common 
 /* 
 /*****************************************************************************/
@@ -57,12 +27,12 @@ div {
 }
 html {
     background-color: #f6f7f3;
-    background-color: var(--dark);
+    background-color: #111;
     font: 14px Helvetica, Arial, sans-serif;
-    color: var(--lite);
+    color: #fff;
 }
 body {
-    color: var(--lite);
+    color: #fff;
 }
 h1,
 h2,
@@ -73,8 +43,8 @@ h6 {
     font-size: 100%;
 }
 h1 {
-    color: var(--dark2);
-    background: var(--lite);
+    color: #000;
+    background: #fff;
     margin-bottom: 1em;
     font-size: 1.85em;
     padding: 12px 0;
@@ -84,7 +54,7 @@ h1 {
     -webkit-font-smoothing: subpixel-antialiased;
 }
 #home h1 {
-    color: var(--lite);
+    color: #fff;
     text-transform: uppercase;
     font-size: 1em;
     font-weight: bold;
@@ -101,13 +71,13 @@ p {
 a,
 a:active,
 a:visited {
-    color: var(--link);
+    color: blue;
     text-decoration: none;
     font-weight: bold;
 }
 a:hover {
     text-decoration: underline;
-    color: var(--lite);
+    color: #fff;
 }
 hr{
     margin:1.5em 0 1em;
@@ -145,7 +115,7 @@ ul.posts {
     line-height: 1.4;
 }
 ul.posts span {
-    color: var(--mid);
+    color: #9e9e9e;
     font-size: 80%;
     letter-spacing: 0.0123em;
     margin-left: 10px;
@@ -161,33 +131,33 @@ ul.posts span {
     width: 42em;
     margin: 3em auto 2em auto;
     line-height: 1.5em;
-    color: var(--lite);
+    color: #fff;
 }
 .title {
-    color: var(--blood);
+    color: #a00;
     /*#a00;*/
     font-weight: bold;
     margin-bottom: 2em;
 }
 .site .title a {
-    color: var(--mid2);
+    color: #bbb;
     text-decoration: none;
     letter-spacing: 1px;
     text-transform: uppercase;
     font-variant: all-small-caps;
 }
 .site .title a:hover {
-    color: var(--tclhover);
+    color: #d9ffe6;
     text-decoration: underline;
 }
 .site .title a.extra {
-    color: var(--link);
+    color: blue;
     text-decoration: none;
     margin-left: 1em;
     text-transform: capitalize;
 }
 .site .title a.extra:hover {
-    color: var(--linkhover);
+    color: #007eff;
 }
 .site .meta {
     color: #bbb;
@@ -198,9 +168,9 @@ ul.posts span {
     padding: 8px 16px;
 }
 .site .footer {
-    color: var(--lite);
-    border-bottom: 1px dotted var(--mid);
-    box-shadow: 0 -3px 0 0 var(--lite);
+    color: #fff;
+    border-bottom: 1px dotted #9e9e9e;
+    box-shadow: 0 -3px 0 0 #fff;
     overflow: hidden;
     font-size: .63em;
 }
@@ -210,7 +180,7 @@ ul.posts span {
     line-height: 1.6;
 }
 .site .footer .contact a {
-    color: var(--mid2);
+    color: #bbb;
 }
 .site .footer .rss {
     margin-top: 1.1em;
@@ -237,7 +207,7 @@ ul.posts span {
     resize: both;
     color: #c7254e;
     font-family: monospace;
-    background: var(--code);
+    background: #f9f2f4;
     box-shadow: 0 0 0 0.1em;
 }
 @media print {
@@ -249,7 +219,7 @@ ul.posts span {
         white-space: -o-pre-wrap;
         word-wrap: break-word;
         background: #fff;
-        color: var(--code);
+        color: #f9f2f4;
         font-family: monospace;
     }
 }
@@ -258,10 +228,10 @@ ul.posts span {
     margin-left: 1.35em;
 }
 #post code {
-    color: var(--code);
-    background-color: var(--mid);
+    color: #f9f2f4;
+    background-color: #9e9e9e;
     border-radius: 4px;
-    border: 0.1em solid var(--code);
+    border: 0.1em solid #f9f2f4;
 }
 code,
 kbd,
@@ -285,8 +255,8 @@ kbd {
     padding: 2px 4px;
 }
 li code {
-    color: var(--code);
-    background-color: var(--mid);
+    color: #f9f2f4;
+    background-color: #9e9e9e;
     border-radius: 4px;
     border: 0.1em solid;
 }
@@ -322,9 +292,9 @@ li pre code {
 #related a,
 #related a:active,
 #related a:visited {
-    color: var(--code);
+    color: #f9f2f4;
     padding: 2px 4px;
-    box-shadow: inset 0 0 0 2px var(--code);
+    box-shadow: inset 0 0 0 2px #f9f2f4;
     margin-left: 10px;
 }
 @media screen and (max-width: 600px) {
