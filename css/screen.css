@@ -232,8 +232,11 @@ ul.posts span {
     resize: both;
     color: #c7254e;
     font-family: monospace;
-    background: #f9f2f4;
+    background: #651919;
     box-shadow: 0 0 0 0.1em;
+}
+.highlight {
+    background: transparent;
 }
 @media print {
     pre {
