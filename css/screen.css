@@ -7,9 +7,6 @@
 * {
     -webkit-tap-highlight-color: transparent;
 }
-div {
-    white-space: normal;
-}
 *,
 *::before,
 *::after {
@@ -21,12 +18,8 @@ div {
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
 }
-*,
-*:before,
-*:after {
-    box-sizing: inherit;
-    margin: 0;
-    padding: 0;
+div {
+    white-space: normal;
 }
 html {
     background-color: #111;
@@ -52,18 +45,6 @@ h1 {
     line-height: 1.2em;
     position: relative;
 }
-#post h1::before {
-    display: inline-block;
-    content: "\21B3";
-    margin: 10px;
-    vertical-align: middle;
-    color: #fff;
-    font-size: 1em;
-    padding: 0;
-    position: absolute;
-    top: 0;
-    left: -.5em;
-}
 #home h1 {
     -webkit-font-smoothing: antialiased;
     -webkit-font-smoothing: subpixel-antialiased;
@@ -79,6 +60,18 @@ h1 {
     display: inline;
     text-indent: 0;
     margin-left: -10px;
+}
+#post h1::before {
+    display: inline-block;
+    content: "\21B3";
+    margin: 10px;
+    vertical-align: middle;
+    color: #fff;
+    font-size: 1em;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: -.5em;
 }
 p {
     margin: 1em 0;
