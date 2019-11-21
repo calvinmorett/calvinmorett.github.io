@@ -39,17 +39,17 @@ body{color:#fff;}
      padding: 12px 10px;
  }
  #home h1 {
-     color: #000;
-     background: #fff;
-     margin-bottom: 1em;
-     text-transform: uppercase;
-     font-size: 11px;
-     font-weight: 500;
-     letter-spacing: .1em;
-     padding: 5px 8px 4px 8px;
-     border-radius: 0;
-     display: inline;
-     text-indent: 10px;
+     xcolor: #000;
+     xbackground: #fff;
+     xmargin-bottom: 1em;
+     xtext-transform: uppercase;
+     xfont-size: 11px;
+     xfont-weight: 500;
+     xletter-spacing: .1em;
+     xpadding: 5px 8px 4px 8px;
+     xborder-radius: 0;
+     xdisplay: inline;
+     xtext-indent: 10px;
       
     -webkit-font-smoothing: antialiased;
     -webkit-font-smoothing: subpixel-antialiased;
