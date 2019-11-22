@@ -141,7 +141,7 @@ ul li a, ul li a:active,ul li a:visited {
     font-weight: bold;
     color: #ec0000;
     text-decoration: none;
-    box-shadow: 0 1px #111;
+    box-shadow: 0 1px #f00;
     transition: all .23s ease;
 }
 ul li a:hover, ul li a:focus 
