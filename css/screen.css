@@ -439,6 +439,9 @@ li pre code {
     padding: 2px 4px;
     margin-left: 10px;
 }
+#related a:hover{
+    box-shadow: 0 1px lime;
+}
 #related ul li a,
 #related ul li a:active,
 #related ul li a:visited {
@@ -449,9 +452,6 @@ li pre code {
     transition: all .23s ease;
     line-height: 1.34;
     box-shadow: 0 1px #111;
-}
-#related ul li a:hover{
-    box-shadow: 0 1px lime;
 }
 @media screen and (max-width: 600px) {
     *,
