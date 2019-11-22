@@ -144,7 +144,6 @@ blockquote {
     font-style: italic;
     position: relative;
     z-index: 20;
-    box-shadow: -10px 0 #005aff;
     padding-left: 20px;
     font-family: 'EB Garamond', Garamond, "Adobe Caslon Pro", "Hoefler Text", Times, serif;
     letter-spacing: .02em;
@@ -152,7 +151,25 @@ blockquote {
     line-height: 1.4em;
     margin: 2em -2em;
     padding: .25em 3.25em;
+    box-shadow: -10px 0 #005aff;
+    box-shadow:none;
 }
+blockquote::before{
+    content:'dumb quote, probably out of context and ish lol';
+    color:#fff;  
+    display:inline-block;  
+    margin-left:20px;
+    font-weight:normal;
+    font-style:normal;
+    animation:blockanimation .5s ease forwards infinite;
+}
+@keyframes blockanimation{
+0%,100%{ content:'\2598'; }
+25%{    content:'\259E'; }
+50%{    content:'\2583'; }
+66%{    content:'\2585'; }
+75%{    content:'\2599'; }
+}   
 /*****************************************************************************/
 /* 
 /* Home 
