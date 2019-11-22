@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond&display=swap');
 
 /*****************************************************************************/
 /* 
@@ -126,7 +127,7 @@ blockquote {
     z-index: 20;
     box-shadow: -10px 0 #005aff;
     padding-left: 20px;
-    font-family: Georgia, Garamond, "Adobe Caslon Pro", "Hoefler Text", Times, serif;
+    font-family: 'EB Garamond', Garamond, "Adobe Caslon Pro", "Hoefler Text", Times, serif;
     letter-spacing: .02em;
     font-size: 1.5em;
     line-height: 1.4em;
