@@ -136,6 +136,7 @@ ul.posts {
     list-style-type: none;
     margin: .8em 0 4em;
     line-height: 1.4;
+    
 }
 ul li a, ul li a:active,ul li a:visited {
     font-weight: bold;
@@ -148,6 +149,8 @@ ul li a:hover, ul li a:focus
     color: #ccc;
     text-decoration: none;
 }
+
+
 ul.posts span {
     color: #9e9e9e;
     font-size: 80%;
@@ -354,6 +357,13 @@ li pre code {
     color: lime;
     padding: 2px 4px;
     margin-left: 10px;
+}
+#related ul li a,#related ul li a:active,#related ul li a:visited {
+    font-weight: bold;
+    color:lime;
+    text-decoration: none;
+    box-shadow: none;
+    transition: all .23s ease;
 }
 @media screen and (max-width: 600px) {
     *,
