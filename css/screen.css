@@ -294,8 +294,9 @@ samp {
 }
 #post img {
     max-width: 42em;
-    padding: 1em 0;
+    padding: 0;
     width: 100%;
+    margin: 1em 0;
 }
 code,
 kbd {
