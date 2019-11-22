@@ -113,6 +113,23 @@ hr {
     padding: 0;
     border: 0;
 }
+blockquote {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    color: #fff;
+    font-style: italic;
+    position: relative;
+    z-index: 20;
+    box-shadow: -4px 0 0 0 #fff;
+    padding-left: 20px;
+    font-family: serif;
+    letter-spacing: .02em;
+    font-size:1.3em;
+    line-height:1.26;
+}
 /*****************************************************************************/
 /* 
 /* Home 
