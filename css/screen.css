@@ -86,6 +86,25 @@ h5 {
     top: 0;
     left: -.5em;
 }
+#post h1::before {
+    font-size:.5em;
+    animation:brandbls 1s linear forwards infinite;
+}
+@keyframes brandbls{
+0%{    content:'\25DC'; color:rgba(255,255,255,0);}
+12.5%{    content:'\25DD';}
+25%{    content:'\25DE';}
+37.5%{   content:'\25DF';}
+50%{   content:'\25E0';color:rgba(255,255,255,1);}  
+62.5%{   content:'  \25D7';} 
+74%{   content:'\25D2'; } 
+77%{  content:'\25D6';}
+80%{  content:'\2602'; color:rgba(255,255,255,0.5);}
+85%{  content:'\2638';}
+90%{  content:'\262F'; font-weight:100; }
+90%{  content:'\267D'; font-weight:500; }
+100%{  content:'\262E'; font-weight:100; }
+}   
 p {
     margin: 1em 0;
 }
@@ -228,6 +247,26 @@ ul.posts span {
     box-shadow: 0 -1px;
     text-decoration: none;
 }
+/* .site .title::before {
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-variant: all-small-caps;
+    content: 'ℭ';
+    font-size: 1.5em;
+    vertical-align: bottom;
+    margin-left: 0;
+    padding-right: 10px;
+    animation:brandbls 2s 0 linear infinite;
+}
+@keyframes brandbls{
+0, 100%{
+    content:'ℭ';
+}
+50%{content:'ℳ';}
+} */
+
 .site .meta {
     border-radius: 0;
     color: rgba(255, 255, 255, .55);
