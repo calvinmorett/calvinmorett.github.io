@@ -63,16 +63,13 @@ h5 {
     -webkit-font-smoothing: subpixel-antialiased;
 }
 #home h1 {
-    color: #fff;
     margin: 0;
-    text-transform: uppercase;
-    font-size: 1em;
-    font-weight: bold;
-    letter-spacing: 0;
-    padding: 5px 8px 4px 8px;
-    border-radius: 0;
-    text-indent: 0;
-    margin-left: -10px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    padding: 10px 0;
+    line-height: 1.1;
+    vertical-align: middle;
+    display: inline-block;
 }
 #post h1::before {
     display: inline-block;
@@ -192,7 +189,7 @@ ul.posts span {
     font-size: 16px;
     text-align: left;
     width: 42em;
-    margin: 3em auto 2em auto;
+    margin: 3em auto;
     line-height: 1.5em;
     color: #fff;
 }
