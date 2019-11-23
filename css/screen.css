@@ -167,7 +167,8 @@ h5 {
     }
 }
 p {
-    margin: 1em 0;
+    margin-top: 0;
+    margin-bottom: 16px;
 }
 em {
     letter-spacing: -0.0123rem;
