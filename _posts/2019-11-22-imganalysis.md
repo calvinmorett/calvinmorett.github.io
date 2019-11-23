@@ -10,9 +10,7 @@ title: Image analysis with Adobe Lightroom
 
 ![Adobe Lightroom Hero](/images/-lightroom-hero.jpg "lol your film is overexposed cause it is not a darkroom")
 
-### Is there photo analysis software which will pre-sort images by identifying potential technical problems?
-
-[StackExchange Thread](https://photo.stackexchange.com/questions/20432/is-there-photo-analysis-software-which-will-pre-sort-images-by-identifying-poten)
+### Is there photo analysis software which will pre-sort images by identifying potential technical problems? [StackExchange Thread](https://photo.stackexchange.com/questions/20432/is-there-photo-analysis-software-which-will-pre-sort-images-by-identifying-poten)
 
 1. Flagged and Unflagged, then make a photo fill the screen. Then I just start hitting the right arrow key or the "x" key. "X" marks the photo as "rejected" and makes it no longer visible. It's easy to jet through 1000 photos in no time. Once I've gone through all the photos, I just choose to Delete Rejected Photos, and I'm done.
 
