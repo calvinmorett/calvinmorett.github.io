@@ -463,11 +463,8 @@ li pre code {
         font-size: calc(1vw + 24px);
     }
     .site {
-        max-width: 100%;
-        padding: 0 30px;
-    }
-    .site img {
         width: 100%;
+        padding: 0 30px;
     }
     h1 {
         line-height: 1.1;
