@@ -50,7 +50,10 @@ h3,
 h4,
 h5,
 h6 {
-    font-size: 100%;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    line-height: 1.25;
 }
 h1 {
     color: #fff;
@@ -62,15 +65,11 @@ h1 {
     position: relative;
 }
 h2 {
-    font-size: 2em;
-    line-height: 1.1;
-    margin: 1.5em 0 0;
+    font-size: 1.65em;
+    padding-bottom: .3em;
+    border-bottom: 1px solid #eaecef;
 }
 h3 {
-    margin-top: 24px;
-    margin-bottom: 16px;
-    font-weight: 600;
-    line-height: 1.25;
     font-size: 1.25em;
 }
 h5 {
