@@ -67,11 +67,11 @@ h2 {
     margin: 1.5em 0 0;
 }
 h3 {
-    margin: 1em 0 0;
-    padding: 10px 0 2px;
-    line-height: 1.1;
-    font-weight: normal;
-    font-size: 2em;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    line-height: 1.25;
+    font-size: 1.25em;
 }
 h5 {
     margin: 1 0 1em;
