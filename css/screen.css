@@ -38,7 +38,7 @@ div {
 html {
     background-color: #111;
     font-size: 1.4em;
-    font-family: Arial, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+    font-family: Arial, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, sans-serif;
 }
 html,
 body {
@@ -67,7 +67,6 @@ h1 {
 h2 {
     font-size: 1.65em;
     padding-bottom: .3em;
-    border-bottom: 1px solid #eaecef;
 }
 h3 {
     font-size: 1.25em;
@@ -386,7 +385,7 @@ ul.posts span {
     overflow: hidden;
     display: flex;
     font-size: 12px;
-    font-family: Arial, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+    font-family: Arial, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, sans-serif;
 }
 .site .footer .contact {
     margin-right: 3em;
