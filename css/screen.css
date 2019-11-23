@@ -187,15 +187,15 @@ a:hover {
     text-decoration: none;
     color: #fff;
 }
-p a,
-p a:active,
-p a:visited {
+#post p a,
+#post p a:active,
+#post p a:visited {
     color: #42c9ff;
     text-decoration: none;
     font-weight: normal;
     transition: all .2s ease;
 }
-p a:hover {
+#post p a:hover {
     color: #81e8ff;
     box-shadow: none;
     text-decoration: none;
