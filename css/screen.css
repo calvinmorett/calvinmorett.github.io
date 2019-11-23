@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond&display=swap');
 @font-face {font-family: "BW Haas Text Mono C 55 Rom Regular";
-  src: url("0970e3fd1aa7e6ff6937c76a583f3a30.eot"); /* IE9*/
-  src: url("0970e3fd1aa7e6ff6937c76a583f3a30.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-  url("0970e3fd1aa7e6ff6937c76a583f3a30.woff2") format("woff2"), /* chrome、firefox */
-  url("0970e3fd1aa7e6ff6937c76a583f3a30.woff") format("woff"), /* chrome、firefox */
-  url("0970e3fd1aa7e6ff6937c76a583f3a30.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-  url("0970e3fd1aa7e6ff6937c76a583f3a30.svg#BW Haas Text Mono C 55 Rom Regular") format("svg"); /* iOS 4.1- */
+  src: url("/font/0970e3fd1aa7e6ff6937c76a583f3a30.eot"); /* IE9*/
+  src: url("/font/0970e3fd1aa7e6ff6937c76a583f3a30.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("/font/0970e3fd1aa7e6ff6937c76a583f3a30.woff2") format("woff2"), /* chrome、firefox */
+  url("/font/0970e3fd1aa7e6ff6937c76a583f3a30.woff") format("woff"), /* chrome、firefox */
+  url("/font/0970e3fd1aa7e6ff6937c76a583f3a30.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("/font/0970e3fd1aa7e6ff6937c76a583f3a30.svg#BW Haas Text Mono C 55 Rom Regular") format("svg"); /* iOS 4.1- */
 }
 
 /*****************************************************************************/
@@ -392,7 +392,7 @@ ul.posts span {
     overflow-y: hidden;
     line-height: 20px;
     resize: both;
-    font-family: 'IBM Plex Mono', Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace;
+    font-family: 'BW Haas Text Mono C 55 Rom Regular', Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace;
     background: #000000;
     padding: 20px 30px;
     margin: 1em 0;
@@ -411,8 +411,8 @@ ul.posts span {
         word-wrap: break-word;
         background: #fff;
         color: #f9f2f4;
-        font-family: 'IBM Plex Mono', Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace;
-    }
+        font-family: 'BW Haas Text Mono C 55 Rom Regular', Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace;
+  }
 }
 #post ul,
 #post ol {
@@ -441,7 +441,7 @@ code,
 kbd,
 pre,
 samp {
-    font-family: 'IBM Plex Mono', Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace;
+    font-family: 'BW Haas Text Mono C 55 Rom Regular', Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace;
 }
 #post pre code {
     border: none;
