@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond&display=swap');
-@font-face {font-family: "BW Haas Text Mono C 55 Rom Regular";
+@font-face {font-family: 'BW Haas Text Mono C 55 Rom Regular';
   src: url("/font/0970e3fd1aa7e6ff6937c76a583f3a30.eot"); /* IE9*/
   src: url("/font/0970e3fd1aa7e6ff6937c76a583f3a30.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
   url("/font/0970e3fd1aa7e6ff6937c76a583f3a30.woff2") format("woff2"), /* chrome、firefox */
@@ -434,7 +434,7 @@ ul.posts span {
     box-shadow: none;
     padding: 0;
     margin: 0;
-    font-weight: 600;
+    font-weight: normal;
 }
 code,
 kbd,
