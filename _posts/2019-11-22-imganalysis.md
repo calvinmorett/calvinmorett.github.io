@@ -18,7 +18,7 @@ title: Image analysis with Adobe Lightroom
 
 2. Photoshop Elements does have an autoanalysis function which does some of this - it tries to detect if the photos are blurred, if there are faces in them etc. I wouldn't say it is brilliant. _For example you may actually want out of focus components in your photograph and the automated algorithm will still mark it as blurred._
 
-## Adobe Lightroom for image analysis, _pros_ & _cons._
+## Adobe Lightroom for image analysis, the _pros_ & _cons._
 
 Able to do multiple things that would speed up and alter the workflow of image analysis - in a positive way, sync between two different clients, face detection and ability to easily transition into Adobe's other programs like Adobe Photoshop.
 
