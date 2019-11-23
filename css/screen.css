@@ -38,7 +38,7 @@ div {
 html {
     background-color: #111;
     font-size: 1.4em;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: Arial, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, sans-serif, Apple Color Emoji, Segoe UI Emoji;
 }
 html,
 body {
@@ -385,15 +385,24 @@ ul.posts span {
 .site .footer {
     color: #fff;
     overflow: hidden;
-    font-size: .63em;
+    display: flex;
+    font-size: 12px;
+    font-family: Arial, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, sans-serif, Apple Color Emoji, Segoe UI Emoji;
 }
 .site .footer .contact {
-    float: left;
     margin-right: 3em;
     line-height: 1.6;
+    float: none;
 }
-.site .footer .contact a {
+.site .footer .contact a,
+.site .footer .contact a:link {
+    transition: all .123s;
+    border-bottom: 1px dotted;
+    box-shadow: none!important;
     color: #fff;
+}
+.list-style-none {
+    list-style: none!important;
 }
 .site .footer .rss {
     margin-top: 1.1em;
