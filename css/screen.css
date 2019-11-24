@@ -532,10 +532,10 @@ li pre code {
     background: #fff;
     content: '';
     display: inline-block;
-    top: 14px;
+    top: 8px;
     position: absolute;
     min-width: 100%;
-    margin-left: 26%;
+    margin-left: 20px;
 }
 #related ul.posts {
     list-style-type: none;
