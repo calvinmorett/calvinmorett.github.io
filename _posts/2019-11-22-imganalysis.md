@@ -38,3 +38,10 @@ _PRO:_ be able to flag videos with - flagged or rejected; defaults as unflagged 
 
 
 ![Adobe Lightroom Gif](/images/procon.gif "pros vs cons adobe lightroom")
+| Pros                                                                                                                                                     | Cons                                                                                    |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
+| Face detection  | Face Detection could make more work; unfamiliar to artists |
+| Sync files between clients   | Another thing to download.                                                              |
+| Flag frames, with flagged/rejected flags | | Faster workflow for deleting flagged images. |                                                                                         |
+
+_ The real questions to ask is if this is right for what you're looking to do. For me when I needed it to sort frames for videos, I felt it was sufficient for multiple editors for the reasons listed above. _
