@@ -237,7 +237,8 @@ blockquote::before {
     content: 'dumb quote, probably out of context and ish lol';
     color: #fff;
     display: inline-block;
-    margin-left: 20px;
+    margin-left: -1em;
+    padding-bottom: 1em;
     font-weight: normal;
     font-style: normal;
     animation: blockanimation .5s ease forwards infinite;
