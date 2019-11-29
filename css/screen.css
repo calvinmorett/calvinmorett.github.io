@@ -89,10 +89,18 @@ h5 {
     vertical-align: middle;
     display: inline-block;
 }
-#post{
-  column-count: 2;
-  column-gap: 60px;
-  column-rule: .2em solid #262626;
+#post {
+    column-count: 2;
+    column-gap: 60px;
+    column-rule: 3px solid #171717;
+}
+#post ul li a,
+#post ul li a:active,
+#post ul li a:visited {
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .23s ease;
+    color: #82eeff;
 }
 #post h1::before {
     display: inline-block;
@@ -300,7 +308,8 @@ table:before {
     display: table;
     content: "";
 }
-table thead tr th:nth-child(1), table thead tr th:nth-child(2) {
+table thead tr th:nth-child(1),
+table thead tr th:nth-child(2) {
     padding: 8px 13px;
     background: #000000;
     color: #fff;
@@ -335,6 +344,9 @@ ul.posts {
     margin: .8em 0 4em;
     line-height: 1.4;
 }
+#post ul, #post ol {
+    overflow: hidden;
+}
 #post ul li a,
 #post ul li a:active,
 #post ul li a:visited {
@@ -365,10 +377,11 @@ ul.posts span {
 .site {
     font-size: 16px;
     text-align: left;
-    margin: 3em auto;
+    margin: 2em auto 0 auto;
     line-height: 1.5em;
     color: #fff;
-    width:50vw;
+    max-width: 50vw;
+    min-width: 42em;
 }
 .title {
     color: #fff;
@@ -435,9 +448,17 @@ ul.posts span {
 .site .footer {
     color: #fff;
     overflow: hidden;
-    display: flex;
-    font-size: 12px;
     font-family: Arial, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, sans-serif;
+    background: #333;
+    margin-bottom: 0;
+    padding: 10px 30px;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: auto;
 }
 .site .footer .contact {
     margin-right: 3em;
@@ -447,20 +468,13 @@ ul.posts span {
 .site .footer .contact a,
 .site .footer .contact a:link {
     transition: all .123s;
-    border-bottom: 1px dotted;
-    box-shadow: none!important;
-    color: #fff;
+    box-shadow: none;
+    color: #adfcff;
+    text-decoration: none;
+    border: none;
 }
 .list-style-none {
     list-style: none!important;
-}
-.site .footer .rss {
-    margin-top: 1.1em;
-    margin-right: -.2em;
-    float: right;
-}
-.site .footer .rss img {
-    border: 0;
 }
 /*****************************************************************************/
 /* 
@@ -566,52 +580,54 @@ li pre code {
     margin-top: 3.14em;
     overflow: hidden;
     position: relative;
+    background: #333;
+    padding: 30px 30px 0;
 }
 #related h2 {
     margin: 0;
     line-height: 1;
-    color: #fff;
     font-size: 15px;
     font-weight: bold;
     width: auto;
     letter-spacing: 1px;
     box-shadow: none;
+    color: #757575;
 }
 #related h2::after {
     vertical-align: middle;
-    height: 3px;
-    background: #fff;
+    height: 1px;
+    background: #5b5b5b;
     content: '';
     display: inline-block;
-    top: 6px;
-    position: absolute;
-    min-width: 100%;
-    margin-left: 20px;
+    top: 36px;
+    min-width: 33.33%;
+    margin-left: 15px;
+}
+#related a,
+#related a:link,
+#related a:active,
+#related a:visited {
+    padding: 2px 4px;
+    margin-left: 10px;
+}
+#related ul li a,
+#related ul li a:link,
+#related ul li a:active,
+#related ul li a:visited {
+    font-weight: bold;
+    color: #10a110;
+    text-decoration: none;
+    transition: all .23s ease;
+    line-height: 1.75;
+    box-shadow: 0 1px #333;
+}
+#related ul li a:hover {
+    box-shadow: 0 1px #10a110;
 }
 #related ul.posts {
     list-style-type: none;
     margin: 1.5em 0;
     line-height: .5;
-}
-#related a,
-#related a:active,
-#related a:visited {
-    color: lime;
-    padding: 2px 4px;
-    margin-left: 10px;
-}
-#related a:hover {
-    box-shadow: 0 1px lime;
-}
-#related ul li a,
-#related ul li a:active,
-#related ul li a:visited {
-    font-weight: bold;
-    color: lime;
-    text-decoration: none;
-    transition: all .23s ease;
-    line-height: 1.75;
-    box-shadow: 0 1px #111;
 }
 @media screen and (max-width: 600px) {
     *,
