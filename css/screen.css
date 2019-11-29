@@ -563,11 +563,10 @@ li pre code {
     position: relative;
 }
 #related h2 {
-    text-transform: uppercase;
     margin: 0;
     line-height: 1;
     color: #fff;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: bold;
     width: auto;
     letter-spacing: 1px;
@@ -579,7 +578,7 @@ li pre code {
     background: #fff;
     content: '';
     display: inline-block;
-    top: 8px;
+    top: 6px;
     position: absolute;
     min-width: 100%;
     margin-left: 20px;
