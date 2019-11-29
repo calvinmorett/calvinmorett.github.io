@@ -35,3 +35,6 @@ _PRO:_ Sync files between clients, deleting from one users Lightroom syncs it ac
 
 ![Adobe Lightroom Hero](/images/-lightroom3.jpg "...")
 _PRO:_ be able to flag videos with - flagged or rejected; defaults as unflagged and then it gives you the ability to delete all rejected, speeding up workflow.
+
+
+![Adobe Lightroom Gif](/images/procon.gif "pros vs cons adobe lightroom")
