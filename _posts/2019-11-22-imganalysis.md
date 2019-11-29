@@ -46,4 +46,4 @@ _PRO:_ be able to flag videos with - flagged or rejected; defaults as unflagged 
 | Flag frames, with flagged/rejected flags  |        |
 | Faster workflow for deleting flagged images.  |        |
 
-_The real questions to ask is if this is right for what you're looking to do. For me when I needed it to sort frames for videos, I felt it was sufficient for multiple editors, the ease of learning the program, and workflow speed increases, for the reasons listed above._
+_The real questions to ask is if this is right for what you're looking to do. For me when I needed it to sort frames for videos, I felt it was sufficient for multiple editors, the ease of learning the program, and workflow speed increases, and for the reasons listed above._
