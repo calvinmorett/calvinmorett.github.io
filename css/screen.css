@@ -300,13 +300,12 @@ table:before {
     display: table;
     content: "";
 }
-table thead tr th:nth-child(1),
-table thead tr th:nth-child(2) {
+table thead tr th:nth-child(1), table thead tr th:nth-child(2) {
     padding: 8px 13px;
-    background: #eaeaea;
-    box-shadow: inset 0 -1px #222, inset 1px 0;
+    background: #000000;
+    color: #fff;
     border: 0;
-    border-top: 1px solid #222;
+    border-top: 1px solid #000;
 }
 /*****************************************************************************/
 /* 
