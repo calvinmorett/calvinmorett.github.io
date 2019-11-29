@@ -451,7 +451,7 @@ ul.posts span {
     font-family: Arial, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, sans-serif;
     background: #333;
     margin-bottom: 0;
-    padding: 10px 30px;
+    padding: 20px 30px 10px;
     font-weight: normal;
     font-style: normal;
     font-size: 11px;
@@ -459,6 +459,7 @@ ul.posts span {
     letter-spacing: 1px;
     -webkit-font-smoothing: antialiased;
     text-rendering: auto;
+    display: flex;
 }
 .site .footer .contact {
     margin-right: 3em;
