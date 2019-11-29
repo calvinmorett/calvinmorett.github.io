@@ -1,4 +1,4 @@
 Font Folder
 - monospaced
-x sans-serif
-x serif
+- x sans-serif
+- x serif
