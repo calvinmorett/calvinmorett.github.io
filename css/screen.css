@@ -89,6 +89,11 @@ h5 {
     vertical-align: middle;
     display: inline-block;
 }
+#post{
+  column-count: 2;
+  column-gap: 60px;
+  column-rule: .2em solid #262626;
+}
 #post h1::before {
     display: inline-block;
     content: "\21B3";
@@ -360,10 +365,10 @@ ul.posts span {
 .site {
     font-size: 16px;
     text-align: left;
-    width: 42em;
     margin: 3em auto;
     line-height: 1.5em;
     color: #fff;
+    width:50vw;
 }
 .title {
     color: #fff;
