@@ -596,13 +596,13 @@ li pre code {
 }
 #related h2::after {
     vertical-align: middle;
-    height: 1px;
-    background: #5b5b5b;
+    height: 2px;
     content: '';
     display: inline-block;
-    top: 36px;
-    min-width: 33.33%;
+    min-width: 66.33%;
     margin-left: 15px;
+    background: #5b5b5b;
+    background: linear-gradient(90deg, rgba(91,91,91,1) 0%, rgba(91,91,91,0) 49%, rgba(91,91,91,0) 100%);
 }
 #related a,
 #related a:link,
