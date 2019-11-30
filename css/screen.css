@@ -466,11 +466,10 @@ ul.posts span {
     line-height: 1.6;
     float: none;
 }
-.site .footer .contact a,
-.site .footer .contact a:link {
+.site .footer .contact a, .site .footer .contact a:link,.site .footer .contact a:active,.site .footer .contact a:visited {
     transition: all .123s;
     box-shadow: none;
-    color: #adfcff;
+    color: #85ff00;
     text-decoration: none;
     border: none;
 }
