@@ -344,7 +344,8 @@ ul.posts {
     margin: .8em 0 4em;
     line-height: 1.4;
 }
-#post ul, #post ol {
+#post ul,
+#post ol {
     overflow: hidden;
 }
 #post ul li a,
@@ -449,7 +450,7 @@ ul.posts span {
     color: #fff;
     overflow: hidden;
     font-family: Arial, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, sans-serif;
-    background: #333;
+    background: #222;
     margin-bottom: 0;
     padding: 20px 30px 10px;
     font-weight: normal;
@@ -461,17 +462,29 @@ ul.posts span {
     text-rendering: auto;
     display: flex;
 }
+
 .site .footer .contact {
-    margin-right: 3em;
+    margin: 0;
     line-height: 1.6;
-    float: none;
+    display: flex;
+    flex-grow: unset;
+    flex: auto;
+    justify-content: space-between;
 }
-.site .footer .contact a, .site .footer .contact a:link,.site .footer .contact a:active,.site .footer .contact a:visited {
+.site .footer .contact a,
+.site .footer .contact a:link,
+.site .footer .contact a:active,
+.site .footer .contact a:visited {
     transition: all .123s;
     box-shadow: none;
-    color: #9a7f1d;
+    color: #eee;
     text-decoration: none;
     border: none;
+}
+.site .footer .contact a:hover {
+    text-decoration: underline;
+    box-shadow: none;
+    border: 0;
 }
 .list-style-none {
     list-style: none!important;
@@ -580,8 +593,18 @@ li pre code {
     margin-top: 3.14em;
     overflow: hidden;
     position: relative;
-    background: #333;
+    background: #222;
     padding: 30px 30px 0;
+}
+#related::after {
+    height: 1px;
+    content: '';
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    min-width: 50%;
+    background: #434343;
+    margin: 0 0 .5em;
 }
 #related h2 {
     margin: 0;
@@ -591,17 +614,10 @@ li pre code {
     width: auto;
     letter-spacing: 1px;
     box-shadow: none;
-    color: #757575;
 }
-#related h2::after {
-    vertical-align: middle;
-    height: 2px;
-    content: '';
-    display: inline-block;
-    min-width: 66.33%;
-    margin-left: 15px;
-    background: #5b5b5b;
-    background: linear-gradient(90deg, rgba(91,91,91,1) 0%, rgba(91,91,91,0) 49%, rgba(91,91,91,0) 100%);
+#related h2,
+#related {
+    color: #fff;
 }
 #related a,
 #related a:link,
@@ -628,6 +644,15 @@ li pre code {
     list-style-type: none;
     margin: 1.5em 0;
     line-height: .5;
+}
+#totop {
+    padding: 10px;
+    border: 0;
+    box-shadow: 0 0 0 1px #111;
+    background: #111;
+    float: right;
+    color: white;
+    cursor: pointer;
 }
 @media screen and (max-width: 600px) {
     *,
