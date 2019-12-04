@@ -493,6 +493,18 @@ ul.posts span {
     box-shadow: none;
     border: 0;
 }
+.site .footer img{
+    width:30px;
+    height:auto;
+    text-align:center;
+    border:0;
+    filter:grayscale(100%);
+    vertical-align:middle;
+    transition:filter .25s ease;
+}
+.site .footer img:hover{
+    filter:grayscale(0);
+}
 .list-style-none {
     list-style: none!important;
 }
