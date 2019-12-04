@@ -59,10 +59,14 @@ h1 {
     color: #fff;
     margin: 0;
     margin-bottom: 0;
-    font-size: 3.6em;
-    padding: 32px;
-    line-height: 1.2em;
     position: relative;
+    font-weight: 800;
+    font-size: 1.38rem;
+    line-height: 1;
+    word-wrap: break-word;
+    clear: none;
+    overflow: hidden;
+    text-transform: uppercase;
 }
 h2 {
     font-size: 1.65em;
