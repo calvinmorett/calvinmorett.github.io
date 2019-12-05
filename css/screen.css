@@ -482,7 +482,6 @@ ul.posts span {
 }
 .site .footer .contact {
     margin: 0;
-    line-height: 1.6;
     display: flex;
     flex-grow: unset;
     flex: auto;
