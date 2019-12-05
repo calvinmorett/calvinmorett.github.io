@@ -516,6 +516,18 @@ ul.posts span {
 .list-style-none {
     list-style: none!important;
 }
+svg{
+    width:30px;
+    height:30px;
+}
+.last-cell{ margin-left: auto; /* aligns flex box to the right */ }
+.last-cell a:active,
+.last-cell a:hover{
+    border:0;
+    text-decoration:none;
+    box-shadow:none;
+    outline:0;
+}
 /*****************************************************************************/
 /* 
 /* Posts 
