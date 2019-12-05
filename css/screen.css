@@ -496,38 +496,36 @@ ul.posts span {
     text-decoration: none;
     border: none;
 }
+.last-cell a:active,
+.last-cell a:hover {
+    border: 0;
+    text-decoration: none;
+    box-shadow: none;
+    outline: 0;
+}
 .site .footer .contact a:hover {
     text-decoration: underline;
     box-shadow: none;
     border: 0;
 }
-.site .footer img {
-    width: 30px;
-    height: auto;
-    text-align: center;
-    border: 0;
-    filter: grayscale(100%);
-    vertical-align: middle;
-    transition: filter .25s ease;
-}
-.site .footer img:hover {
-    filter: grayscale(0);
+.site .footer .contact .last-cell a,
+.site .footer .contact .last-cell a:link,
+.site .footer .contact .last-cell a:active,
+.site .footer .contact .last-cell a:visited {
+    color: rgba(255, 255, 255, 0)!important;
 }
 .list-style-none {
     list-style: none!important;
 }
-svg{
-    width:30px;
-    height:30px;
+svg {
+    width: 30px;
+    height: 30px;
 }
-.last-cell{ margin-left: auto; /* aligns flex box to the right */ }
-.last-cell a:active,
-.last-cell a:hover{
-    border:0;
-    text-decoration:none;
-    box-shadow:none;
-    outline:0;
+.last-cell {
+    margin-left: auto;
+    /* aligns flex box to the right */
 }
+
 /*****************************************************************************/
 /* 
 /* Posts 
