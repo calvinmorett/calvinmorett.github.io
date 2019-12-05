@@ -473,6 +473,8 @@ ul.posts span {
     -webkit-font-smoothing: antialiased;
     text-rendering: auto;
     display: flex;
+    height: 25px;
+    line-height: 25px;
 }
 .site .footer .contact p {
     margin-top: 0;
