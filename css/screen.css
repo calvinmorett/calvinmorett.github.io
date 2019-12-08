@@ -475,10 +475,13 @@ ul.posts span {
     display: flex;
     height: 25px;
     line-height: 25px;
+    position:relative;
 }
+
 .site .footer .contact p {
     margin-top: 0;
     margin-bottom: 0;
+    line-height: 25px;
 }
 .site .footer .contact {
     margin: 0;
@@ -525,6 +528,9 @@ svg {
 .last-cell {
     margin-left: auto;
     /* aligns flex box to the right */
+    right: 30px;
+    top: 18px;
+    position: absolute;
 }
 
 /*****************************************************************************/
