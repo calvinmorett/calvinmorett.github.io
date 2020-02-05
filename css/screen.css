@@ -101,7 +101,7 @@ h5 {
     padding: 32px;
 }
 #post {
-    column-count: 2;
+    column-count: 1;
     column-gap: 60px;
     column-rule: 3px solid #171717;
 }
