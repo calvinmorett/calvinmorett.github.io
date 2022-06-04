@@ -113,7 +113,7 @@ h5 {
     transition: all .23s ease;
     color: #82eeff;
 }
-#post h1::before {
+/* #post h1::before {
     display: inline-block;
     content: "\21B3";
     margin: 10px;
@@ -187,7 +187,7 @@ h5 {
         content: '\262E';
         font-weight: 100;
     }
-}
+} */
 p {
     margin-top: 0;
     margin-bottom: 16px;
