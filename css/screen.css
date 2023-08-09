@@ -452,8 +452,7 @@ ul.posts span {
     overflow: hidden;
     font-family: Arial, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, sans-serif;
     background: #222;
-    margin-bottom: 0;
-    padding: 20px 30px;
+    padding: 1em 2em;
     font-weight: normal;
     font-style: normal;
     font-size: 11px;
@@ -462,15 +461,14 @@ ul.posts span {
     -webkit-font-smoothing: antialiased;
     text-rendering: auto;
     display: flex;
-    height: 25px;
-    line-height: 25px;
+    height: auto;
+    line-height: 1;
     position: relative;
 }
 
 .site .footer .contact p {
     margin-top: 0;
     margin-bottom: 0;
-    line-height: 25px;
 }
 .site .footer .contact {
     margin: 0;
@@ -510,21 +508,29 @@ ul.posts span {
 .list-style-none {
     list-style: none!important;
 }
-svg{	
-	display:inline-block;	
-	height:100%;
-	max-width:40px;
-	margin:0;
-	padding:0;
+svg {
+    display: inline-block;
+    height: auto;
+    max-width: 19px;
+    margin: 0 0 0 1em;
+    padding: 0;
+    filter: invert(1);
 }
 .last-cell {
-    margin-left: auto;
-    /* aligns flex box to the right */
-    right: 30px;
-    top: 18px;
-    position: absolute;
+    position: relative;
 }
-
+.backtotop {
+    background: transparent;
+    color: inherit;
+    border: none;
+    padding: 0;
+    display: inline-block;
+    vertical-align: super;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 10px;
+    font-weight: bold;
+}
 /*****************************************************************************/
 /* 
 /* Posts 
