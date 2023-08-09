@@ -21,7 +21,7 @@ These emails collected are used in the hopes they can funnel you into their drip
 
 And that is what this post is about. I'm here to help you get rid of the popup with an JS Bookmarklet that I found on the web and has served me well in avoiding the new norm of website pop-up blocks.
 
-### Explaining how to create an bookmarklet, and in this case kill pop-up overlays
+### Create a bookmarklet, to kill pop-ups & overlays
 
 Javascript Bookmarklet are little pieces of JavaScript that can do everything like modify a website you're on in a variety of ways. In this case, we're going to kill anything that floats above the content.
 
@@ -41,9 +41,9 @@ JavaScript:(function()%7B(function()%7Bdocument.body.style.overflow %3D 'auto'%3
 
 ![You can also create this by editing a bookmark and add the code like this](/images/-popups.png "Popup Bookmarklet Alt-Creation: You can also create this by editing a bookmark and add the code like this")
 
-Next, find a website that bugs you. Write down using a scale from 1 to 10, your pain rating of your experience... or really, just when the overlay shows, just click the Bookmarklet you've just created. It should remove the pop-ups and overlays on the page, no more clutter.
+Next, find a website that bugs you. Write down using a scale from 1 to 10, your pain rating of your experience... or really, when the overlay inevitable pops up, click the Bookmarklet you've just created. It should remove the pop-ups and overlays on the page ~ no more clutter.
 
-_Note: If you used the Bookmarklet and it removed elements, you didn't want removed -- don't worry! Just refresh. It's not permanent. But yes, sometimes it has adverse affects, like removing the navigation bar or some other overlaying elements on the page that aren't your target. Regardless, it has a lot of uses and this is just one of them, I reccomend playing around with it, if it removes an element that you didn't intend to remove, again, just refresh the page and endure the overlays._
+_Note: If you used the Bookmarklet and it removed elements, you didn't want removed -- don't worry! Just refresh. It's not permanent. But yes, sometimes it has adverse affects, like removing the navigation bar or some other overlaying elements on the page that aren't your target. Regardless, it has a lot of uses and this is just one of them, I recomend playing around with it, if it removes an element that you didn't intend to remove, again, just refresh the page and endure the overlays._
 
 ![Blammmo](/images/blam.gif "
 Pop-ups get Blam'd")
