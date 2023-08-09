@@ -429,7 +429,7 @@ ul.posts span {
 }
 @keyframes brandbls{
 0, 100%{
-    content:'ℭ';
+    content:'ℭℳ';
 }
 50%{content:'ℳ';}
 } */
@@ -463,8 +463,8 @@ ul.posts span {
 }
 
 .site .footer .contact p {
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0;
+    padding: 0;
 }
 .site .footer .contact {
     margin: 0;
@@ -483,6 +483,8 @@ ul.posts span {
     text-decoration: none;
     border: none;
 }
+.first-cell a:active,
+.first-cell a:hover,
 .last-cell a:active,
 .last-cell a:hover {
     border: 0;
@@ -512,6 +514,7 @@ svg {
     padding: 0;
     filter: invert(1);
 }
+.first-cell,
 .last-cell {
     position: relative;
 }
