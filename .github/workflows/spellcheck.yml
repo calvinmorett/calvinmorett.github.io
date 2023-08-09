@@ -1,25 +1,12 @@
-on:
-  pull_request:
-    branches:
-    - main
+name: Spellcheck Action
+on: push
 
-matrix:
-- name: Markdown
-  aspell:
-    lang: en
-  dictionary:
-    wordlists:
-    - .wordlist.txt
-    encoding: utf-8
-  pipeline:
-  - pyspelling.filters.markdown:
-      markdown_extensions:
-      - pymdownx.superfences
-  - pyspelling.filters.html:
-      comments: false
-      ignores:
-      - code
-      - pre
-  sources:
-  - '**/*.md'
-  default_encoding: utf-8
+jobs:
+  build:
+    name: Spellcheck
+    runs-on: ubuntu-latest
+    steps:
+    # The checkout step
+    - uses: actions/checkout@v3
+    - uses: rojopolis/spellcheck-github-actions@v0
+      name: Spellcheck
