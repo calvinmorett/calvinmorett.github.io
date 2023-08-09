@@ -528,7 +528,7 @@ svg {
     vertical-align: super;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-size: 10px;
+    font-size: inherit;
     font-weight: bold;
 }
 /*****************************************************************************/
