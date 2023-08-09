@@ -446,20 +446,23 @@ ul.posts span {
 }
 .site .footer {
     color: #fff;
-    overflow: hidden;
     background: #222;
-    padding: 1em 2em;
-    font-weight: normal;
-    font-style: normal;
-    font-size: 11px;
+    -webkit-font-smoothing: antialiased;
     text-transform: uppercase;
     letter-spacing: 1px;
-    -webkit-font-smoothing: antialiased;
+    text-rendering: auto;
+    font-size: 11px;
+    font-weight: normal;
+    font-style: normal;
+    color: #fff;
+    overflow: visible;
+    padding:0;
+    background: #0a0a0a;
     text-rendering: auto;
     display: flex;
-    height: auto;
-    line-height: 1;
+    height:50px;
     position: relative;
+    text-shadow:0 0 0 transparent;
 }
 
 .site .footer .contact p {
@@ -514,11 +517,21 @@ svg {
     padding: 0;
     filter: invert(1);
 }
-.first-cell,
+.first-cell, .last-cell {
+    position: absolute;
+    top: 10px;
+    line-height:32px;
+    text-shadow:0 0 0 transparent;
+}
+.first-cell {
+    left: 20px;
+}
 .last-cell {
-    position: relative;
+    right: 20px;
+    line-height:42px;
 }
 .backtotop {
+    cursor:pointer;
     background: transparent;
     color: inherit;
     border: none;
