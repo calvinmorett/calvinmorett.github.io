@@ -1,3 +1,8 @@
+on:
+  pull_request:
+    branches:
+    - main
+
 matrix:
 - name: Markdown
   aspell:
@@ -8,6 +13,8 @@ matrix:
     encoding: utf-8
   pipeline:
   - pyspelling.filters.markdown:
+      markdown_extensions:
+      - pymdownx.superfences
   - pyspelling.filters.html:
       comments: false
       ignores:
