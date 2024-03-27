@@ -403,11 +403,17 @@ ul.posts span {
     box-shadow: 0 -1px;
 }
 .site .title a.extra {
-    color: #fff;
+    color: transparent !important;
     text-decoration: none;
     margin-left: 1em;
     text-transform: capitalize;
     transition: all .23s ease;
+    background: transparent url(https://calvinmorett.github.io/images/home-icon.png) no-repeat;
+    background-size: cover;
+    height: 70px;
+    display: block;
+    width: 70px;
+    font-size: 0px;
 }
 .site .title a.extra:hover {
     color: #fff;
