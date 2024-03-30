@@ -6,6 +6,8 @@ title: Predicting UFC 252
 {{ page.title }}
 ================
 <p class="meta">Python, Code, Stats, UFC, Prediction, Analysis, Data</p>
+<!--Available Meta Tags: Python, Stats, UFC, Prediction, Data, Windows, Scripting, Productivity, Context Menu, Shortcuts, Dev Tools, Utility, Software Development, Code, Tutorial, Automation, Design, Adobe, Software, Excel, Bookmarklet, Graphics, Analysis, Sorting, Marketing -->
+
 
 ![](/images/-ufc252hero.jpg)
 
