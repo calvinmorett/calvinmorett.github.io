@@ -4,7 +4,6 @@ title: Creating Context Menu Shortcuts for Windows
 ---
 
 {{ page.title }}
-
 ================
 
 <!--Available Meta Tags: Windows, Scripting, Productivity, Context Menu, Shortcuts, Dev Tools, Utility, Software Development, Code, Tutorial, Automation, Design, Adobe, Software, Excel, Bookmarklet, Graphics, Analysis, Sorting, Marketing -->
