@@ -8,7 +8,7 @@ title: Predicting UFC 252
 ================
 <p class="meta">Code, Bookmarklet, Tutorial, Utility, Marketing</p>
 
-![](/images/-ufc252.jpg)
+![](/images/-ufc252hero.png)
 
 ## UFC 252: Stipe vs DC
 
@@ -34,8 +34,7 @@ Takedown Defense | Point for Daniel Cormier                                     
 6 to 4: Stipe Miocic has the most advantages.
 ```
 
-
-stats.png
+![](/images/ufc252.jpg)
 
 So it looks like Stipe has the most advantages according to the data. From just visually looking at the previous fights, neither fighter took each other down. They both have exceptional wrestling, so I think it sort of negates itself, the weight doesn’t matter either because DC usually fights at a lower weight class, which also probably ties into a better WinLoss Ratio, which sort of negates that data in a way too, or at least puts less weight on those stats. So let’s look at it again, with just more weight added in places it will matter, Striking; both fights have been ended with strikes so that seems to make sense that they will do it again.
 
