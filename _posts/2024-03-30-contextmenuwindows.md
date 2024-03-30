@@ -13,7 +13,7 @@ title: How To: Create Context Menu Shortcuts for Windows
 
 =====================================
 ## How To: Create Context Menu Shortcuts for Windows
-Have you ever thought about having some utility, at a click of a button, a tool that assists you in your work? Something that would help your productivity, and not impeed or hinder your progress? How about something to help you shortcut part of the process or simplifies a step?  
+Have you ever thought about having some utility, at a click of a button, a tool that assists you in your work? Something that would help your productivity, and not impede or hinder your progress? How about something to help you shortcut part of the process or simplify a step?  
   
 Creating a 'Windows Context Menu' shortcut might be a strategy that you can use and easily integrate into your process. It's much simpler than you may think, let me show you how.
 
@@ -21,13 +21,13 @@ Creating a 'Windows Context Menu' shortcut might be a strategy that you can use 
 
 There's a context menu shortcut that I like to use often for my projects but with this guide you can create whatever you need with a few components.  
   
-First let me tell you what my script does. The shortcut I use allows me copy every filename within a folder. All I do is right-click anywhere inside my folder and select the option "Copy all Filenames". Then the command runs a script that copies every file name (this script does not include folders, though you can change that if you wish) and allows me to paste those file names + extensions, where I may need to paste them.  
+First let me tell you what my script does. The shortcut I use allows me to copy every filename within a folder. All I do is right-click anywhere inside my folder and select the option "Copy all Filenames". Then the command runs a script that copies every file name (this script does not include folders, though you can change that if you wish) and allows me to paste those file names + extensions, where I may need to paste them.  
   
 Here's an example output:
 
 ![](/images/22.png)
 
-I kept this script simple to suite my needs, but you can do much more advanced things with this script, using a few modifications; including getting the entire size of the files, the date it was created or modified, and anything else you may dream up. For now I'm going to try and keep it simple.
+I kept this script simple to suit my needs, but you can do much more advanced things with this script, using a few modifications; including getting the entire size of the files, the date it was created or modified, and anything else you may dream up. For now I'm going to try and keep it simple.
 
 Getting Started
 ---------------
@@ -38,7 +38,7 @@ So to get started open "Registry Editor" / "regedit".
 
 There is a lot of things you can do to create issues with your computer in "Regedit" so please be careful. As long as you follow along and don't delete anything important, you'll be fine!  
   
-The next step is to navigate to the path below within "Regedit", sort of like how you use the input in a browser to go to website URL, you can type or copy/paste the path below, to the top bar of the program and press enter.  
+The next step is to navigate to the path below within "Regedit", sort of like how you use the input in a browser to go to a website URL, you can type or copy/paste the path below, to the top bar of the program and press enter.  
 
  Copy Path
 ```Computer\HKEY_CLASSES_ROOT\Directory\Background\shell\```
@@ -94,7 +94,7 @@ Our first task is complete, it looks better already. Test it out, in your own Co
 
 ![](/images/1313.png)
 
-Next, let's add an icon. Windows gives you a lot to choose from and they're nested within '.dll' files, that are used by the operating system. Click into the freshly named, 'Copy all Filenames' key, and this time create a new 'String Value'.
+Next, let's add an icon. Windows gives you a lot to choose from and they're nested within '.dll' files that are used by the operating system. Click into the freshly named, 'Copy all Filenames' key, and this time create a new 'String Value'.
 
 ![](/images/1414.png)
 
@@ -147,7 +147,7 @@ This is a two part question, let's break it down:*   What do we need to type to 
 Using a Specific Icon
 ---------------------
 
-For the first part of the question, to target the icon in the data, all we need to add is a comma, followed a '-' by the icon ID.  
+For the first part of the question, to target the icon in the data, all we need to add is a comma, followed by a '-' by the icon ID.  
   
 This looks something like, ```"%systemroot%\\system32\\pifmgr.dll, -100"```
   
@@ -181,9 +181,9 @@ This one feels right for a file name copier command.
 Finally
 -------
 
-So we found the icon we want to use, the id of that filing cabinent is '15'. To use that id of 15, we need to add ", -15" at the end of our '.dll' path and test it.  
+So we found the icon we want to use, the id of that filing cabinet is '15'. To use that id of 15, we need to add ", -15" at the end of our '.dll' path and test it.  
   
-So click in to your String Value one last time, and modify it, and append ",-15" to the end of the path. Note: if you used a different '.dll' you won't see the same icon.
+So click into your String Value one last time, and modify it, and append ",-15" to the end of the path. Note: if you used a different '.dll' you won't see the same icon.
 
 ![](/images/2626.png)
 
@@ -197,12 +197,12 @@ And as always, Test!
 Just the Beginning
 ------------------
 
-This is just an example of what you can do. There are a ton of possiblities and ways to improve your productivity through a little creativity, within the Context Menu, here are a few more ideas:  
+This is just an example of what you can do. There are a ton of possibilities and ways to improve your productivity through a little creativity, within the Context Menu, here are a few more ideas:  
   
 
 *   Rename every file in a folder
 *   Open Command Prompt and 'cd' / Change Directory to the current folder
-*   An option for Defraging a Drive
+*   An option for Defragging a Drive
 *   Open any type of text document in Notepad
 *   Quick launch a Python Script, Program, or Batch file
   
