@@ -207,12 +207,12 @@ Just the Beginning
 ------------------
 
 This is just an example of what you can do. There are a ton of possibilities and ways to improve your productivity through a little creativity, within the Context Menu, here are a few more ideas:  
-  
 
-*   Rename every file in a folder
-*   Open Command Prompt and 'cd' / Change Directory to the current folder
-*   An option for Defragging a Drive
-*   Open any type of text document in Notepad
-*   Quick launch a Python Script, Program, or Batch file
-  
+- Rename every file in a folder
+- Open Command Prompt and 'cd' / Change Directory to the current folder
+- An option for Defragging a Drive
+- Open any type of text document in Notepad
+- Quick launch a Python Script, Program, or Batch file
+
+
 Go make your work & life easier!
