@@ -17,7 +17,7 @@ Some digital businesses do it well and embed the email sign-ups along their cont
 
 These emails collected are used in the hopes they can funnel you into their drip campaigns and annoy the shit out of you. If pop-up overlays weren't involved I wouldn't be so negative here; You should be collecting emails, but if you have an overlay to do it, I'm going to find a way to break it. Also, when I'm reading a news article and a navbar on the bottom and the top of the page obstructs my view from the text, it's plain frustrating!
 
-You should “own” your audience's contact details, rather than optimize for followers on proprietary networks that you need to continually pay to reach.
+Sidenote: You should “own” your audience's contact details, rather than optimize for followers on proprietary networks that you need to continually pay to reach.
 
 And that is what this post is about. I'm here to help you get rid of the popup with an JS Bookmarklet that I found on the web and has served me well in avoiding the new norm of website pop-up blocks.
 
