@@ -43,6 +43,7 @@ There is a lot of things you can do to create issues with your computer in "Rege
 The next step is to navigate to the path below within "Regedit", sort of like how you use the input in a browser to go to a website URL, you can type or copy/paste the path below, to the top bar of the program and press enter.  
 
  Copy Path
+ 
 ```Computer\HKEY_CLASSES_ROOT\Directory\Background\shell\```
 
 ![](/images/44.png)
@@ -70,6 +71,7 @@ We want to modify this value to add the script that allows us to copy all the fi
 ![](/images/99.png)
 
  Copy Value Data
+ 
 ```cmd /c dir /b /a:-d /o:n | clip```
 
 Once you press 'OK', you can test if it works, by right-clicking into a folder - with files, and viewing the context menu. There should be your new option there for us to click on. Left-click the command and test it out! Paste into your favorite text editor, like Notepad.
@@ -114,16 +116,19 @@ Here's a few snippets from their article, of what we can use to add icons:
 ![](/images/1616.png)
 
  Copy pifmgr.dll path
+ 
 ```%systemroot%\system32\pifmgr.dll```
   
 ![](/images/1717.png)
 
  Copy shell32.dll path
+ 
 ```%systemroot%\system32\shell32.dll```
   
 ![](/images/1818.png)
 
  Copy moricons.dll path
+ 
  ```%systemroot%\system32\moricons.dll```
 
 Adding an Icon
@@ -151,7 +156,9 @@ Using a Specific Icon
 
 For the first part of the question, to target the icon in the data, all we need to add is a comma, followed by a '-' by the icon ID.  
   
-This looks something like, ```"%systemroot%\\system32\\pifmgr.dll, -100"```
+This looks something like, 
+
+```"%systemroot%\\system32\\pifmgr.dll, -100"```
   
 We're shown this icon when we add the '.dll' because by default it will use the first id.
 
@@ -190,6 +197,7 @@ So click into your String Value one last time, and modify it, and append ",-15" 
 ![](/images/2626.png)
 
  Copy pifmgr.dll,-15 path
+ 
 ```%systemroot%\system32\pifmgr.dll, -15```
   
 And as always, Test! 
