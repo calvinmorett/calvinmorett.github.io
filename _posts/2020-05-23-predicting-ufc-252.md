@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Predicting UFC 252
@@ -6,7 +5,7 @@ title: Predicting UFC 252
 
 {{ page.title }}
 ================
-<p class="meta">Code, Bookmarklet, Tutorial, Utility, Marketing</p>
+<p class="meta">Python, Code, Stats, UFC, Prediction, Analysis, Data</p>
 
 ![](/images/-ufc252hero.jpg)
 
