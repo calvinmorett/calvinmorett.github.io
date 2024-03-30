@@ -36,8 +36,7 @@ There is a lot of things you can do to create issues with your computer in "Rege
 The next step is to navigate to the path below within "Regedit", sort of like how you use the input in a browser to go to website URL, you can type or copy/paste the path below, to the top bar of the program and press enter.  
 
  Copy Path
-
-Copied!
+```Computer\HKEY_CLASSES_ROOT\Directory\Background\shell\```
 
 ![](https://calvinmorett.com/articles/contextmenu/44.png) You should see some of the defaults when you land there, such as 'cmd', 'Powershell', and maybe programs you've installed that have Context Menu shortcuts, in my case, 'VSCode'.
 
@@ -52,8 +51,7 @@ Within the 'Command' key, right-click the '(Default)' String Value, and click 'M
 We want to modify this value to add the script that allows us to copy all the filenames, so when we right-click and open our Context Menu within Windows Explorer / a folder, we will be able to select the option, then run the command. ![](https://calvinmorett.com/articles/contextmenu/99.png)
 
  Copy Value Data
-
-Copied!
+```cmd /c dir /b /a:-d /o:n | clip```
 
 Once you press 'OK', you can test if it works, by right-clicking into a folder - with files, and viewing the context menu. There should be your new option there for us to click on. Left-click the command and test it out! Paste into your favorite text editor, like Notepad. ![](https://calvinmorett.com/articles/contextmenu/1010.png) ![](https://calvinmorett.com/articles/contextmenu/1111.png)
 
@@ -83,24 +81,19 @@ Here's a few snippets from their article, of what we can use to add icons:
 ![](https://calvinmorett.com/articles/contextmenu/1616.png)
 
  Copy pifmgr.dll path
+```%systemroot%\system32\pifmgr.dll```
 
-Copied!
-
-  
   
 ![](https://calvinmorett.com/articles/contextmenu/1717.png)
 
  Copy shell32.dll path
+```%systemroot%\system32\shell32.dll```
 
-Copied!
-
-  
   
 ![](https://calvinmorett.com/articles/contextmenu/1818.png)
 
  Copy moricons.dll path
-
-Copied!
+ ```%systemroot%\system32\moricons.dll```
 
 Adding an Icon
 --------------
@@ -143,8 +136,7 @@ So we found the icon we want to use, the id of that filing cabinent is '15'. To 
 So click in to your String Value one last time, and modify it, and append ",-15" to the end of the path. Note: if you used a different '.dll' you won't see the same icon. ![](https://calvinmorett.com/articles/contextmenu/2626.png)
 
  Copy pifmgr.dll,-15 path
-
-Copied!
+```%systemroot%\system32\pifmgr.dll, -15```
 
   
   
