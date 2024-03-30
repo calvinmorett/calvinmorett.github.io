@@ -8,7 +8,7 @@ title: Predicting UFC 252
 ================
 <p class="meta">Code, Bookmarklet, Tutorial, Utility, Marketing</p>
 
-![](/images/-ufc252hero.png)
+![](/images/-ufc252hero.jpg)
 
 ## UFC 252: Stipe vs DC
 
