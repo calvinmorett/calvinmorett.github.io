@@ -47,3 +47,17 @@ Next, find a website that bugs you. Write down using a scale from 1 to 10, your 
 ---
 
 Note: If you used the Bookmarklet and it removed elements, you didn't want them removed -- don't worry! Just refresh. It's not permanent. But yes, sometimes it has adverse effects, like removing the navigation bar or some other overlapping elements on the page that aren't your target. Regardless, it has a lot of uses and this is just one of them, I recommend playing around with it. If it removes an element that you didn't intend to remove, again, just refresh the page and endure the overlays.
+
+---
+
+Additionally, and perhaps a more target approach would be to use uBlock Origin, from Raymond Hill. You can add it as an extension to your favorite browers, such as Chrome or Firefox. Then whenever you see an element you don't like, you can right click and select "Block Element".
+
+E.g.
+
+![](/images/-blockelement.png)
+
+Then click create, once you've selected the element you don't want to see and click "Create":
+
+![](/images/-blockelement2.png)
+
+
