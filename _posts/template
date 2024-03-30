@@ -5,7 +5,7 @@ title: post title
 
 {{ page.title }}
 ================
-<!--Available Meta Tags: Code, Design, Bookmarklet, Tutorial, Utility, Marketing -->
+<!--Available Meta Tags: Python, Stats, UFC, Prediction, Analysis, Data, Code, Design, Bookmarklet, Tutorial, Utility, Marketing -->
 <p class="meta">....</p>
 
 ![TITLE Hero](/images/-TITLE-hero.jpg "...")
