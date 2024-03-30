@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How To: Create Context Menu Shortcuts for Windows
+title: Creating Context Menu Shortcuts for Windows
 ---
 
 {{ page.title }}
