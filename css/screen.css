@@ -343,10 +343,18 @@ ul.posts {
     margin: .8em 0 4em;
     line-height: 1.4;
 }
-#post ul,
-#post ol {
+#post ul, #post ol {
     overflow: hidden;
+    border: 1px solid;
+    padding: 10px;
+    display: inline-block;
 }
+
+#post li {
+    color: #ccc;
+    font-style: italic;
+}
+
 #post ul li a,
 #post ul li a:active,
 #post ul li a:visited {
@@ -587,14 +595,17 @@ svg {
     margin-left: 1.35em;
 }
 #post code {
-    color: #85ff00;
-    background: rgba(255,255,255,.05);
-    border-radius: 2px;
+    color: #d7d7d7;
+    background: rgb(189 189 189 / 37%);
+    border-radius: 0;
     border: none;
-    box-shadow: inset 0 0 0 1px;
+    box-shadow: inset -1px -1px 0 2px;
     margin: 0;
-    font-weight:normal;
-    letter-spacing:1px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    margin: 0 0 2em;
+    display: inline-block;
 }
 #post > div > div > pre > code {
     color: lime;
@@ -623,6 +634,8 @@ samp {
     white-space: -o-pre-wrap;
     word-wrap: break-word;
 }
+
+
 #post img {
     max-width: 100%;
     padding: 0;
