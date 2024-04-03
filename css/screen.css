@@ -80,7 +80,7 @@ h5 {
     vertical-align: middle;
     display: inline-block;
     color: #fff;
-    margin-bottom: 0;
+    margin-bottom: 20px;
     position: relative;
     font-weight: 800;
     font-size: 1.38rem;
@@ -90,6 +90,8 @@ h5 {
     overflow: hidden;
     text-transform: uppercase;
     padding: 32px;
+    width: 50%;
+    border-left: 3px solid yellow;
 }
 #post {
     column-count: 1;
