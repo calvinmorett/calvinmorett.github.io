@@ -83,7 +83,9 @@ Congrats!
 
 We've successfully created a command for our Context Menu, that will allow us to copy all of the filenames within a folder. But we can do a few more things to clean up our command and make it easier to understand what it will do, when we click on it.
 
-Let's do two more things to make this a cleaner looking context menu option.*   Rename the Command; to something easy to understand
+Let's do two more things to make this a cleaner looking context menu option.
+
+*   Rename the Command; to something easy to understand
 *   Add an icon to the command; to something related to the function
 
 Two More Things
