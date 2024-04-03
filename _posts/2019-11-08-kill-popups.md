@@ -54,10 +54,10 @@ Additionally, and perhaps a more target approach would be to use uBlock Origin, 
 
 E.g.
 
-![](/images/-blockelement.png)
+![](/images/-blockelement.png "Ublock, blocking element")
 
 Then click create, once you've selected the element you don't want to see and click "Create":
 
-![](/images/-blockelement2.png)
+![](/images/-blockelement2.png "Ublock, blocking element")
 
 
