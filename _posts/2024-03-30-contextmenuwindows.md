@@ -84,7 +84,6 @@ Congrats!
 We've successfully created a command for our Context Menu, that will allow us to copy all of the filenames within a folder. But we can do a few more things to clean up our command and make it easier to understand what it will do, when we click on it.
 
 Let's do two more things to make this a cleaner looking context menu option.
-
 *   Rename the Command; to something easy to understand
 *   Add an icon to the command; to something related to the function
 
@@ -149,7 +148,8 @@ Again, the ever important step - let's test what happens:
 
 That is an interesting icon, but I wanted something different. So our next question is, How can we target specific icons within the '.dll' files?
 
-This is a two part question, let's break it down:*   What do we need to type to target the icon in the data that we add to the string value.
+This is a two part question, let's break it down:
+*   What do we need to type to target the icon in the data that we add to the string value.
 *   What can we use to find the icon we want?
 
 Using a Specific Icon
