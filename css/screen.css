@@ -57,7 +57,9 @@ h1 {
 }
 h2 {
     font-size: 1.65em;
+    color: yellow;
     padding-bottom: .3em;
+    margin-top: 50px;
 }
 h3 {
     font-size: 1.25em;
