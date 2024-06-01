@@ -1,4 +1,3 @@
-
 /*****************************************************************************/
 /* 
 /* Common 
@@ -8,6 +7,7 @@
 * {
     -webkit-tap-highlight-color: transparent;
 }
+
 *,
 *::before,
 *::after {
@@ -20,18 +20,22 @@
     text-rendering: optimizeLegibility;
     -moz-osx-font-smoothing: grayscale;
 }
+
 div {
     white-space: normal;
 }
+
 html {
     background-color: #111;
     font-size: 1.4em;
     font-family: Arial, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, sans-serif;
 }
+
 html,
 body {
     color: #fff;
 }
+
 h1,
 h2,
 h3,
@@ -43,32 +47,36 @@ h6 {
     font-weight: 600;
     line-height: 1.25;
 }
+
 h1 {
-  font-size: inherit;
-  letter-spacing: 1px;
-  padding: 10px 0 0;
-  line-height: 1.1;
-  vertical-align: middle;
-  display: inline-block;
-  color: #fff;
-  margin: 0;
-  position: relative;
-  color: #ccc;
+    font-size: inherit;
+    letter-spacing: 1px;
+    padding: 10px 0 0;
+    line-height: 1.1;
+    vertical-align: middle;
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    color: #ccc;
 }
+
 h2 {
     font-size: 1.65em;
     color: yellow;
     padding-bottom: .3em;
     margin-top: 50px;
 }
+
 h3 {
     font-size: 1.25em;
 }
+
 h5 {
     margin: 1 0 1em;
     padding: 10px 0;
     line-height: 1.1;
 }
+
 #home h1 {
     -webkit-font-smoothing: antialiased;
     -webkit-font-smoothing: subpixel-antialiased;
@@ -93,11 +101,13 @@ h5 {
     width: 50%;
     border-left: 3px solid yellow;
 }
+
 #post {
     column-count: 1;
     column-gap: 60px;
     column-rule: 3px solid #171717;
 }
+
 #post ul li a,
 #post ul li a:active,
 #post ul li a:visited {
@@ -106,6 +116,7 @@ h5 {
     transition: all .23s ease;
     color: #82eeff;
 }
+
 /* #post h1::before {
     display: inline-block;
     content: "\21B3";
@@ -185,10 +196,12 @@ p {
     margin-top: 0;
     margin-bottom: 16px;
 }
+
 em {
     letter-spacing: -0.0123rem;
     font-weight: bold;
 }
+
 a,
 a:active,
 a:visited {
@@ -198,11 +211,13 @@ a:visited {
     box-shadow: 0 1px #111;
     transition: all .23s ease;
 }
+
 a:hover {
     box-shadow: 0 1px;
     text-decoration: none;
     color: #fff;
 }
+
 #post p a,
 #post p a:active,
 #post p a:visited {
@@ -211,12 +226,14 @@ a:hover {
     font-weight: normal;
     transition: all .2s ease;
 }
+
 #post p a:hover {
     color: #81e8ff;
     box-shadow: none;
     text-decoration: none;
     border-bottom: 0;
 }
+
 hr {
     margin: 1.5em 0 1em;
     width: 100%;
@@ -225,6 +242,7 @@ hr {
     padding: 0;
     border: 0;
 }
+
 blockquote {
     display: block;
     margin-block-start: 1em;
@@ -235,7 +253,6 @@ blockquote {
     font-style: italic;
     position: relative;
     z-index: 20;
-    padding-left: 20px;
     letter-spacing: .02em;
     font-size: 1.5em;
     line-height: 1.4em;
@@ -244,6 +261,7 @@ blockquote {
     box-shadow: -10px 0 #005aff;
     box-shadow: none;
 }
+
 blockquote::before {
     content: 'dumb quote, probably out of context and ish lol';
     color: #fff;
@@ -254,24 +272,30 @@ blockquote::before {
     font-style: normal;
     animation: blockanimation .5s ease forwards infinite;
 }
+
 @keyframes blockanimation {
     0%,
     100% {
         content: '\2598';
     }
+
     25% {
         content: '\259E';
     }
+
     50% {
         content: '\2583';
     }
+
     66% {
         content: '\2585';
     }
+
     75% {
         content: '\2599';
     }
 }
+
 table {
     display: block;
     width: 100%;
@@ -280,37 +304,45 @@ table {
     font-size: 16px;
     line-height: 1.5;
 }
+
 thead {
     display: table-header-group;
     vertical-align: middle;
     border-color: inherit;
 }
+
 table {
     border-spacing: 0;
     border-collapse: collapse;
     margin-top: 0;
     margin-bottom: 16px;
 }
+
 tbody {
     word-wrap: break-word;
 }
+
 table tr {
     background-color: #a3a3a3;
     border-top: 1px solid #82878d;
 }
+
 table tr:nth-child(2n) {
     background-color: #c1c1c1;
 }
+
 table td,
 table th {
     padding: 6px 13px;
     border: 1px solid #222;
 }
+
 table:after,
 table:before {
     display: table;
     content: "";
 }
+
 table thead tr th:nth-child(1),
 table thead tr th:nth-child(2) {
     padding: 8px 13px;
@@ -319,6 +351,7 @@ table thead tr th:nth-child(2) {
     border: 0;
     border-top: 1px solid #000;
 }
+
 /*****************************************************************************/
 /* 
 /* Home 
@@ -332,21 +365,25 @@ table thead tr th:nth-child(2) {
     content: '\203A';
     transition: margin-left .23s ease;
 }
+
 #home ul.posts {
     list-style-type: none;
     margin: .8em 0 4em;
     line-height: 1.4;
 }
+
 #home ul.posts li:hover:before {
     list-style-type: none;
     content: '\2192';
     margin-left: -1.3em;
 }
+
 ul.posts {
     list-style-type: none;
     margin: .8em 0 4em;
     line-height: 1.4;
 }
+
 #post ul, #post ol {
     overflow: hidden;
     border: 1px solid;
@@ -366,21 +403,25 @@ ul.posts {
     text-decoration: none;
     transition: all .23s ease;
 }
+
 #post ul li a:hover,
 #post ul li a:focus {
     color: #fff;
     text-decoration: none;
     box-shadow: 0 1px;
 }
+
 ul.posts span {
     color: #9e9e9e;
     font-size: 80%;
     letter-spacing: 0.0123em;
     margin-left: 10px;
 }
+
 #home ul.posts span {
     color: #fff;
 }
+
 /*****************************************************************************/
 /* 
 /* Site 
@@ -395,11 +436,13 @@ ul.posts span {
     max-width: 50vw;
     min-width: 42em;
 }
+
 .title {
     color: #fff;
     font-weight: bold;
     margin-bottom: 2em;
 }
+
 .site .title a {
     color: #fff;
     text-decoration: none;
@@ -409,11 +452,13 @@ ul.posts span {
     box-shadow: none;
     transition: all .23s ease;
 }
+
 .site .title a:hover {
     text-decoration: none;
     color: #fff;
     box-shadow: 0 -1px;
 }
+
 .site .title a.extra {
     color: transparent !important;
     text-decoration: none;
@@ -427,11 +472,13 @@ ul.posts span {
     width: 70px;
     font-size: 0px;
 }
+
 .site .title a.extra:hover {
     color: #fff;
     box-shadow: 0 -1px;
     text-decoration: none;
 }
+
 /* .site .title::before {
     color: #fff;
     text-decoration: none;
@@ -462,31 +509,30 @@ ul.posts span {
     letter-spacing: 1px;
     margin: 0 0 14px;
 }
+
 .site .footer {
-    color: #fff;
-    background: #222;
     -webkit-font-smoothing: antialiased;
     text-transform: uppercase;
     letter-spacing: 1px;
-    text-rendering: auto;
     font-size: 11px;
     font-weight: normal;
     font-style: normal;
     color: #fff;
     overflow: visible;
-    padding:0;
+    padding: 0;
     background: #0a0a0a;
     text-rendering: auto;
     display: flex;
-    height:50px;
+    height: 50px;
     position: relative;
-    text-shadow:0 0 0 transparent;
+    text-shadow: 0 0 0 transparent;
 }
 
 .site .footer .contact p {
     margin: 0;
     padding: 0;
 }
+
 .site .footer .contact {
     margin: 0;
     display: flex;
@@ -494,6 +540,7 @@ ul.posts span {
     flex: auto;
     justify-content: space-between;
 }
+
 .site .footer .contact a,
 .site .footer .contact a:link,
 .site .footer .contact a:active,
@@ -504,6 +551,7 @@ ul.posts span {
     text-decoration: none;
     border: none;
 }
+
 .first-cell a:active,
 .first-cell a:hover,
 .last-cell a:active,
@@ -513,20 +561,24 @@ ul.posts span {
     box-shadow: none;
     outline: 0;
 }
+
 .site .footer .contact a:hover {
     text-decoration: underline;
     box-shadow: none;
     border: 0;
 }
+
 .site .footer .contact .last-cell a,
 .site .footer .contact .last-cell a:link,
 .site .footer .contact .last-cell a:active,
 .site .footer .contact .last-cell a:visited {
     color: rgba(255, 255, 255, 0)!important;
 }
+
 .list-style-none {
     list-style: none!important;
 }
+
 svg {
     display: inline-block;
     height: auto;
@@ -535,21 +587,25 @@ svg {
     padding: 0;
     filter: invert(1);
 }
+
 .first-cell, .last-cell {
     position: absolute;
     top: 10px;
-    line-height:32px;
-    text-shadow:0 0 0 transparent;
+    line-height: 32px;
+    text-shadow: 0 0 0 transparent;
 }
+
 .first-cell {
     left: 20px;
 }
+
 .last-cell {
     right: 20px;
-    line-height:42px;
+    line-height: 42px;
 }
+
 .backtotop {
-    cursor:pointer;
+    cursor: pointer;
     background: transparent;
     color: inherit;
     border: none;
@@ -561,6 +617,7 @@ svg {
     font-size: inherit;
     font-weight: bold;
 }
+
 /*****************************************************************************/
 /* 
 /* Posts 
@@ -579,9 +636,11 @@ svg {
     margin: 1em 0;
     box-shadow: inset 0 0 0 3px lime, inset 0 0 12px #b9b9b9;
 }
+
 .highlight {
     background: transparent;
 }
+
 @media print {
     pre {
         overflow-x: auto;
@@ -594,10 +653,12 @@ svg {
         color: #f9f2f4;
     }
 }
+
 #post ul, #post ol {
     margin-left: 0;
     list-style: inside;
 }
+
 #post code {
     color: #d7d7d7;
     background: rgb(189 189 189 / 37%);
@@ -611,6 +672,7 @@ svg {
     margin: 0 0 2em;
     display: inline-block;
 }
+
 #post > div > div > pre > code {
     color: lime;
     background: transparent;
@@ -621,13 +683,15 @@ svg {
     margin: 0;
     font-weight: normal;
 }
+
 code,
 kbd,
 pre,
 samp {
-    font-family:monospace;
-    letter-spacing:1px;
+    font-family: monospace;
+    letter-spacing: 1px;
 }
+
 #post pre code {
     border: none;
     border-radius: 0;
@@ -645,28 +709,34 @@ samp {
     padding: 0;
     margin: 0;
 }
+
 code,
 kbd {
     font-size: 10px;
     padding: 4px 10px 3px;
 }
+
 li code {
     border-radius: 4px;
     border: 0.1em solid;
 }
+
 li pre code {
     border: 0;
     box-shadow: none;
 }
+
 /* terminal */
 #post pre.terminal {
     border: 1px solid black;
     background-color: #333;
     color: white;
 }
+
 #post pre.terminal code {
     background-color: inherit;
 }
+
 #related {
     margin-top: 3.14em;
     overflow: hidden;
@@ -674,6 +744,7 @@ li pre code {
     background: #222;
     padding: 30px 30px 0;
 }
+
 #related::after {
     height: 1px;
     content: '';
@@ -684,6 +755,7 @@ li pre code {
     background: #434343;
     margin: 0 0 .5em;
 }
+
 #related h2 {
     margin: 0;
     line-height: 1;
@@ -693,10 +765,12 @@ li pre code {
     letter-spacing: 1px;
     box-shadow: none;
 }
+
 #related h2,
 #related {
     color: #fff;
 }
+
 #related a,
 #related a:link,
 #related a:active,
@@ -704,6 +778,7 @@ li pre code {
     padding: 2px 4px;
     margin-left: 10px;
 }
+
 #related ul li a,
 #related ul li a:link,
 #related ul li a:active,
@@ -715,14 +790,17 @@ li pre code {
     line-height: 1.75;
     box-shadow: 0 1px #333;
 }
+
 #related ul li a:hover {
     box-shadow: 0 1px #10a110;
 }
+
 #related ul.posts {
     list-style-type: none;
     margin: 1.5em 0;
     line-height: .5;
 }
+
 #totop {
     padding: 10px;
     border: 0;
@@ -732,22 +810,88 @@ li pre code {
     color: white;
     cursor: pointer;
 }
+
+p {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#post ul, #post ol {
+    overflow: hidden;
+    list-style: inside;
+    display: block;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+#post h1 {
+    margin: 0;
+    letter-spacing: 1px;
+    vertical-align: middle;
+    display: inline-block;
+    color: #fff;
+    margin-bottom: 20px;
+    position: relative;
+    font-weight: 800;
+    font-size: 1.38rem;
+    line-height: 1;
+    word-wrap: break-word;
+    clear: none;
+    overflow: hidden;
+    text-transform: uppercase;
+    padding: 15px 0;
+    width: 100%;
+}
+
+#post li {
+    color: #fff;
+    font-style: italic;
+    line-height: 1.3;
+    margin: 0 0 7px;
+}
+
+ul, ol {
+    margin-bottom: .83999rem;
+    padding-top: .16001rem;
+}
+
+
+#post pre {
+    box-sizing: border-box;
+    width: 100%;
+    overflow: auto;
+    overflow-y: hidden;
+    line-height: 20px;
+    resize: both;
+    border-radius: 20px;
+    background: #373737;
+    padding: 10px 20px;
+    margin: 0 0 1em;
+    box-shadow: none;
+}
+
+
 @media screen and (max-width: 600px) {
     *,
     html,
     body {
         font-size: 100%;
     }
+
     body {
         font-size: calc(1vw + 24px);
     }
+
     .site {
         width: 100%;
         padding: 0 30px;
     }
+
     h1 {
         line-height: 1.1;
     }
+
     #post pre {
         font-size: 1.1em;
         padding: 1.1em .5em;
