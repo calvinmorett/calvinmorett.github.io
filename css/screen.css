@@ -43,7 +43,6 @@ html {
 }
 
 html {
-    font-size: 10px;
     -webkit-tap-highlight-color: transparent;
     font-family: "Source Sans 3", sans-serif;
     line-height: 1.42857;
@@ -352,7 +351,7 @@ table {
     width: 100%;
     overflow: auto;
     color: #000;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.5;
 }
 
@@ -745,7 +744,7 @@ samp {
 
 code,
 kbd {
-    font-size: 10px;
+    font-size: 14px;
     padding: 4px 10px 3px;
 }
 
@@ -795,7 +794,7 @@ li pre code {
 #related h2 {
     margin: 0;
     line-height: 1;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: bold;
     width: auto;
     letter-spacing: 1px;
@@ -909,7 +908,7 @@ ul, ol {
     }
 
     body {
-        font-size: calc(1vw + 24px);
+        font-size: 14px;
     }
 
     .site {
