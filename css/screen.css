@@ -512,19 +512,21 @@ ul.posts span {
     border-radius: 0;
     color: rgb(87 87 87);
     font-size: 10px;
-    box-shadow: inset 0 0 0 2px rgb(51, 51, 51);
+    box-shadow: inset 0 0 0 1px rgb(51, 51, 51);
     text-transform: uppercase;
     padding: 8px 16px;
     text-align: center;
     letter-spacing: 1px;
     margin: 0 0 14px;
+    font-family: Arial, sans-serif;
+    text-align: left;
 }
 
 .site .footer {
     -webkit-font-smoothing: antialiased;
     text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 11px;
+    font-size: 10px;
+    line-height: 10px;
     font-weight: normal;
     font-style: normal;
     color: #fff;
@@ -533,9 +535,10 @@ ul.posts span {
     background: #003b82;
     text-rendering: auto;
     display: flex;
-    height: 50px;
+    height: 10px;
     position: relative;
     text-shadow: 0 0 0 transparent;
+    width: 100%;
 }
 
 .site .footer .contact p {
@@ -549,23 +552,21 @@ ul.posts span {
     display: flex;
     flex: auto;
     justify-content: space-between;
+    font-family: Arial, sans-serif;
 }
-
-
 .first-cell a:active,
 .first-cell a:hover,
 .last-cell a:active,
 .last-cell a:hover {
-    border: 0;
-    text-decoration: none;
-    box-shadow: none;
     outline: 0;
+    color: #ffffff;
+    text-decoration: underline;
+    box-shadow: none;
+    border: none;
 }
 
 .site .footer .contact a:hover {
-    text-decoration: underline;
-    box-shadow: none;
-    border: 0;
+    text-decoration: none;
 }
 
 .list-style-none {
@@ -583,18 +584,16 @@ svg {
 
 .first-cell, .last-cell {
     position: absolute;
-    top: 10px;
-    line-height: 32px;
+    top: 0;
     text-shadow: 0 0 0 transparent;
 }
 
 .first-cell {
-    left: 20px;
+    left: 0;
 }
 
 .last-cell {
-    right: 20px;
-    line-height: 3;
+    right:0;
 }
 
 .backtotop {
