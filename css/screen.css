@@ -66,8 +66,9 @@ html p, html h1, html h2, html h3, html h4, html h5, body p, body h1, body h2, b
 }
 
 html p, body p {
-    line-height: 1.75em;
+    line-height: 1.45em;
     font-weight: 400;
+    margin: 0 0 1em;
 }
 
 
@@ -905,9 +906,12 @@ hr {
 }
 
 #post li {
+    color: #fff;
+    color: #2e2d29;
     font-style: italic;
+    line-height: 1.5em;
+    margin: 0;
 }
-
 #post code {
     color: #0000a3;
     background: rgb(171 171 171 / 37%);
