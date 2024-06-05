@@ -161,82 +161,6 @@ h5 {
     color: #82eeff;
 }
 
-/* #post h1::before {
-    display: inline-block;
-    content: "\21B3";
-    margin: 10px;
-    vertical-align: middle;
-    color: #fff;
-    font-size: 1em;
-    padding: 0;
-    position: absolute;
-    top: 0;
-    left: -.5em;
-}
-#post h1::before {
-    font-size: .5em;
-    animation: brandbls 1s cubic-bezier(0.24, 1.04, 0.38, 0.87) forwards infinite;
-}
-@keyframes brandbls {
-    0% {
-        content: '\25DC';
-        color: rgba(255, 255, 255, 1);
-    }
-    2% {
-        content: '\25DD';
-    }
-    4% {
-        content: '\25DE';
-    }
-    6% {
-        content: '\25DF';
-    }
-    8% {
-        content: '\25DC';
-        color: rgba(255, 255, 255, .5);
-    }
-    12.5% {
-        content: '\25DD';
-    }
-    25% {
-        content: '\25DE';
-    }
-    37.5% {
-        content: '\25DF';
-    }
-    50% {
-        content: '\25E0';
-        color: rgba(255, 255, 255, 1);
-    }
-    62.5% {
-        content: '  \25D7';
-    }
-    74% {
-        content: '\25D2';
-    }
-    77% {
-        content: '\25D6';
-    }
-    80% {
-        content: '\2602';
-    }
-    85% {
-        content: '\2638';
-    }
-    90% {
-        content: '\262F';
-        font-weight: 100;
-    }
-    90% {
-        content: '\267D';
-        font-weight: 500;
-    }
-    100% {
-        content: '\262E';
-        font-weight: 100;
-    }
-} */
-
 em {
     letter-spacing: -0.0123rem;
     font-weight: bold;
@@ -505,6 +429,7 @@ ul.posts span {
 }
 50%{content:'ℳ';}
 } */
+}
 .site .meta {
     border-radius: 0;
     color: rgb(87 87 87);
@@ -517,6 +442,8 @@ ul.posts span {
     margin: 0 0 14px;
     font-family: Arial, sans-serif;
     text-align: left;
+    width: 80%;
+    margin: 0 auto 2em;
 }
 .site .footer {
     -webkit-font-smoothing: antialiased;
@@ -698,6 +625,8 @@ samp {
     max-width: 100%;
     padding: 0;
     margin: 0;
+    margin: 0 auto;
+    display: block;
 }
 
 code,
@@ -793,22 +722,19 @@ li pre code {
 
 #post h1 {
     margin: 0;
-    letter-spacing: 0;
+    letter-spacing: -0.0123rem;
     vertical-align: middle;
     display: inline-block;
-    color: #2e2d29;
-    margin-bottom: -3px;
+    color: #000000;
     position: relative;
-    font-weight: normal;
-    font-size: 1.38rem;
-    line-height: 1;
     word-wrap: break-word;
     clear: none;
     overflow: hidden;
-    padding: 15px 0;
+    padding: 0 0 .15em;
     width: 100%;
     font-size: 5rem;
-    line-height: 4.5rem;
+    line-height: 1;
+    text-align: center;
     font-weight: 500;
 }
 #post li {
