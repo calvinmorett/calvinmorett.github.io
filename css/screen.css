@@ -464,7 +464,8 @@ ul.posts span {
     min-width: 100%;
     box-shadow: 0 0 0 2px #003b82;
     left: 0;
-    position: absolute;
+    bottom: 0;
+    position: fixed;
 }
 
 .site .footer .contact p {
