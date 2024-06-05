@@ -464,7 +464,6 @@ ul.posts span {
 .site .title a:hover {
     text-decoration: none;
     color: #7e7a69;
-    box-shadow: 0 -1px;
 }
 
 .site .title a.extra {
@@ -482,11 +481,9 @@ ul.posts span {
     width: 100%;
     background: #001eff;
 }
-
 .site .title a.extra:hover {
+    text-decoration: underline;
     color: #fff;
-    color: #2e2d29;
-    text-decoration: none;
 }
 
 /* .site .title::before {
