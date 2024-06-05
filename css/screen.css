@@ -478,7 +478,6 @@ ul.posts span {
     text-align: left;
     margin: 2em auto 0 auto;
     line-height: 1.5em;
-    color: #000;
     max-width: 750px;
     min-width: 33em;
 }
@@ -956,4 +955,17 @@ hr {
     padding: 9px 18px;
     font-size: inherit;
     display: inline;
+}
+#post pre {
+    box-sizing: border-box;
+    width: 100%;
+    overflow: auto;
+    overflow-y: hidden;
+    line-height: 20px;
+    resize: both;
+    border-radius: 20px;
+    background: #373737;
+    padding: 10px 20px 10px;
+    margin: 0 0 1em;
+    box-shadow: none;
 }
