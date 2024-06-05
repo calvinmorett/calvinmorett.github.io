@@ -27,26 +27,21 @@ div {
 }
 
 html {
-    font-size: 12px;
     font-optical-sizing: auto;
     font-weight: normal;
     font-style: normal;
     font-family: "Source Sans 3", sans-serif;
     -webkit-tap-highlight-color: transparent;
-    font-family: "Source Sans 3", sans-serif;
     line-height: 1.42857;
     color: #2e2d29;
     background-color: #f8f8f8;
-}
-
-html {
-    font-size: 10px;
     -webkit-tap-highlight-color: transparent;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
 
 html, body {
+    font-size: 14px;
     font-family: "Source Sans 3", sans-serif;
     color: #646259;
     word-wrap: break-word;
