@@ -139,7 +139,7 @@ h4,
 h5,
 h6 {
     margin-top: 24px;
-    margin-bottom: 16px;
+    : 16px;
     font-weight: 600;
     line-height: 1.25;
     color: #2e2d29;
@@ -271,11 +271,6 @@ h5 {
         font-weight: 100;
     }
 } */
-p {
-    margin-top: 0;
-    margin-bottom: 16px;
-    color: #2e2d29;
-}
 
 em {
     letter-spacing: -0.0123rem;
@@ -822,10 +817,6 @@ li pre code {
     cursor: pointer;
 }
 
-p {
-    margin-top: 0;
-    margin-bottom: 10px;
-}
 
 #post ul, #post ol {
     overflow: hidden;
@@ -929,4 +920,40 @@ li,li a:link,li a:visited,li a:active {
     color: #2e2d29;
     line-height: 1.5;
     margin:0;
+}
+#post h1, h1,h2{
+    color: #2e2d29;
+    font-size: 2.25rem;
+    letter-spacing: .5px;
+    font-weight: 400;
+    line-height: 3.5rem;
+}
+#post h1{
+    font-size: 4rem;    
+    line-height: 4.5rem;    
+}
+hr {
+    margin: 1.5em 0 1em;
+    width: 100%;
+    height: 1px;
+    background: #c9c9c9;
+    padding: 0;
+    border: 0;
+}
+
+#post li {
+    font-style: italic;
+}
+
+#post code {
+    color: #0000a3;
+    background: rgb(171 171 171 / 37%);
+    border-radius: 35px;
+    border: none;
+    box-shadow: none;
+    font-weight: normal;
+    letter-spacing: 0;
+    padding: 9px 18px;
+    font-size: inherit;
+    display: inline;
 }
