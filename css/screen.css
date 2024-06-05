@@ -456,8 +456,6 @@ ul.posts span {
 .site .title a {
     color: #404040;
     text-decoration: none;
-    letter-spacing: 1px;
-    text-transform: uppercase;
     font-variant: all-small-caps;
     box-shadow: none;
     transition: all .23s ease;
@@ -470,12 +468,19 @@ ul.posts span {
 }
 
 .site .title a.extra {
-    color: #2e2d29;
+    color: #ffffff;
     text-decoration: none;
-    margin-left: 1em;
-    text-transform: capitalize;
+    margin: 0;
+    text-transform: lowercase;
     display: block;
-    text-align: center;
+    text-align: left;
+    font-weight: inherit;
+    line-height: 1;
+    letter-spacing: 0;
+    padding: .5em 1em .6em;
+    font-size: 20px;
+    width: 100%;
+    background: #001eff;
 }
 
 .site .title a.extra:hover {
