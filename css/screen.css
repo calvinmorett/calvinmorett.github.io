@@ -375,7 +375,7 @@ table thead tr th:nth-child(2) {
     padding-right: 1em;
     content: '\203A';
     transition: margin-left .23s ease;
-    color: #820000;
+    color: inherit;
 }
 
 #home ul.posts {
