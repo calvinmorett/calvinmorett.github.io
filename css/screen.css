@@ -19,18 +19,11 @@
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
 }
 
 div {
     white-space: normal;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-*:before, *:after {
-    box-sizing: border-box;
 }
 
 html {
@@ -38,11 +31,7 @@ html {
     font-optical-sizing: auto;
     font-weight: normal;
     font-style: normal;
-    color: #2e2d29;
     font-family: "Source Sans 3", sans-serif;
-}
-
-html {
     -webkit-tap-highlight-color: transparent;
     font-family: "Source Sans 3", sans-serif;
     line-height: 1.42857;
@@ -50,38 +39,22 @@ html {
     background-color: #f8f8f8;
 }
 
-* {
-    box-sizing: border-box;
-}
-
-*:before, *:after {
-    box-sizing: border-box;
-}
-
-*:before, *:after {
-    box-sizing: border-box;
-}
-
 html {
     font-size: 10px;
     -webkit-tap-highlight-color: transparent;
-}
-
-html {
-    font-family: sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
 
 html, body {
-    font-family: 'Source Sans Pro';
+    font-family: "Source Sans 3", sans-serif;
     color: #646259;
     word-wrap: break-word;
     letter-spacing: .05rem;
 }
 
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Source Sans 3", sans-serif;
     font-size: 14px;
     line-height: 1.42857;
     color: #2e2d29;
