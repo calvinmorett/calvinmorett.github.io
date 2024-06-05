@@ -551,18 +551,16 @@ ul.posts span {
     justify-content: space-between;
     font-family: Arial, sans-serif;
 }
-.first-cell a:active,
-.first-cell a:hover,
-.last-cell a:active,
-.last-cell a:hover {
+.footer a:link,.footer a:visited {
     outline: 0;
     color: #ffffff;
     text-decoration: underline;
     box-shadow: none;
     border: none;
+    transition:all .2s ease;
 }
 
-.site .footer .contact a:hover {
+.footer a:hovered,.footer a:active {
     text-decoration: none;
 }
 
