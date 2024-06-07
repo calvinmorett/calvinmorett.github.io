@@ -7,7 +7,7 @@ title: JS Bookmarklet to Kill Pop-up Overlays
 ================
 <p class="meta">Code, Bookmarklet, Tutorial, Utility, Marketing</p>
 
-![Pop-up Hero](/images/-popup-hero.jpg "Free, Just enter your bank info!")
+![Pop-up Hero](/images/-popup-hero.jpg "Free, Just enter your bank info!") {: #hero}
 
 ## What's the big deal?
 
