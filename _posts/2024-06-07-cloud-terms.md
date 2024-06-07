@@ -153,9 +153,7 @@ Immutable Infrastructure as Code:
 
 Chaos Engineering:
    - *Definition:* Chaos engineering is a discipline that experiments on a system to uncover weaknesses before they manifest in production. By intentionally injecting failures and observing system behavior, organizations can build more resilient and reliable systems.
-   - *Example:* "Netflix pioneered chaos engineering by running 'Chaos Monkey,' a tool that randomly terminates virtual machine instances in its production environment
-
-. This practice helps identify and address weaknesses in their distributed systems, making them more fault-tolerant."
+   - *Example:* "Netflix pioneered chaos engineering by running 'Chaos Monkey,' a tool that randomly terminates virtual machine instances in its production environment. This practice helps identify and address weaknesses in their distributed systems, making them more fault-tolerant."
 
 Event-Driven Architecture:
    - *Definition:* Event-driven architecture (EDA) is an architectural pattern where decoupled components communicate with each other by producing and consuming events. Events represent significant changes or state transitions within the system and drive the flow of data and actions.
