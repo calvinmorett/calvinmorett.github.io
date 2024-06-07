@@ -9,6 +9,7 @@ title: Image analysis with Adobe Lightroom?
 <p class="meta">Software, Adobe, Sorting</p>
 
 ![Adobe Lightroom Hero](/images/-lightroom-hero.jpg "lol your film is overexposed cause it is not a darkroom")
+{: #hero}
 
 ### Is there photo analysis software which will pre-sort images by identifying potential technical problems?
 [StackExchange Thread](https://photo.stackexchange.com/questions/20432/is-there-photo-analysis-software-which-will-pre-sort-images-by-identifying-poten)
