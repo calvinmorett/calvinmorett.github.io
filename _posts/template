@@ -5,8 +5,11 @@ title: post title
 
 {{ page.title }}
 ================
-<!--Available Meta Tags: Python, Stats, UFC, Prediction, Data, Windows, Scripting, Productivity, Context Menu, Shortcuts, Dev Tools, Utility, Software Development, Code, Tutorial, Automation, Design, Adobe, Software, Excel, Bookmarklet, Graphics, Analysis, Sorting, Marketing -->
+<!--Available Meta Tags: Python, Stats, UFC, Prediction, Data, Windows, Scripting, Productivity, Context Menu, Shortcuts, Dev Tools, Utility, Software Development, Code, Tutorial, Automation, Design, Adobe, Software,
+Excel, Bookmarklet, Graphics, Analysis, Sorting, Marketing, Definitions, Glossary, Terms -->
 <p class="meta">....</p>
+
+
 
 ![TITLE Hero](/images/-TITLE-hero.jpg "...")
 
