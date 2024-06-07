@@ -362,7 +362,7 @@ ul.posts span {
     text-align: left;
     line-height: 1.5em;
     margin: 2em;
-    max-width: 38vw;
+    width: 725px;
 }
 
 .title {
