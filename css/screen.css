@@ -433,13 +433,12 @@ ul.posts span {
     color: #fff;
     overflow: visible;
     padding: 0;
-    background: #003b82;
+    background: #001eff;
     text-rendering: auto;
     display: flex;
-    height: 13px;
+    height: 15px;
     text-shadow: 0 0 0 transparent;
     min-width: 100%;
-    box-shadow: 0 0 0 2px #003b82;
     left: 0;
     bottom: 0;
     position: fixed;
@@ -489,6 +488,7 @@ svg {
     position: absolute;
     top: 0;
     text-shadow: 0 0 0 transparent;
+    line-height: 15px;
 }
 
 .first-cell {
