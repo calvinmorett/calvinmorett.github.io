@@ -169,6 +169,10 @@ Graph Database:
    - *Definition:* A graph database is a type of NoSQL database that uses graph structures with nodes, edges, and properties to represent and store data. Graph databases are optimized for querying complex relationships and are well-suited for applications like social networks, recommendation engines, and fraud detection.
    - *Example:* "Facebook's social graph is stored in a graph database, allowing efficient traversal of connections between users, friends, and interests. This enables features like friend recommendations and personalized content."
 
+Observability:
+    - *Definition:* Observability is the ability to understand and infer the internal state of a system by observing its external outputs. In complex distributed systems, observability encompasses monitoring, logging, tracing, and metrics collection to gain insights into system behavior and performance.
+    - *Example:* "A microservices architecture relies on observability tools like Prometheus for monitoring, Jaeger for distributed tracing, and Elasticsearch for log aggregation to gain visibility into service interactions and diagnose performance issues."
+
 Zero Trust Security Model:
    - *Definition:* The zero trust security model is an approach to cybersecurity that assumes no trust, even among users inside an organization's network. It requires strict identity verification and continuous authentication for all users and devices, regardless of their location or network access.
    - *Example:* "Implementing zero trust security involves strategies such as micro-segmentation, least privilege access, multifactor authentication (MFA), and continuous monitoring of network traffic and user behavior to detect and respond to potential threats."
@@ -177,6 +181,5 @@ Machine Learning Operations (MLOps):
    - *Definition:* Machine Learning Operations (MLOps) is a set of practices and tools that aim to streamline the deployment, monitoring, and management of machine learning models in production environments. MLOps combines principles from DevOps with specialized techniques for managing machine learning workflows.
    - *Example:* "A data science team uses MLOps tools like Kubeflow or MLflow to automate model training, deployment, and versioning, ensuring reproducibility and scalability of machine learning pipelines."
 
-Observability:
-    - *Definition:* Observability is the ability to understand and infer the internal state of a system by observing its external outputs. In complex distributed systems, observability encompasses monitoring, logging, tracing, and metrics collection to gain insights into system behavior and performance.
-    - *Example:* "A microservices architecture relies on observability tools like Prometheus for monitoring, Jaeger for distributed tracing, and Elasticsearch for log aggregation to gain visibility into service interactions and diagnose performance issues."
+
+
