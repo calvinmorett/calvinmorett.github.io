@@ -170,7 +170,7 @@ Graph Database:
    - *Example:* "Facebook's social graph is stored in a graph database, allowing efficient traversal of connections between users, friends, and interests. This enables features like friend recommendations and personalized content."
 
 Observability:
-    - *Definition:* Observability is the ability to understand and infer the internal state of a system by observing its external outputs. In complex distributed systems, observability encompasses monitoring, logging, tracing, and metrics collection to gain insights into system behavior and performance.
+   - *Definition:* Observability is the ability to understand and infer the internal state of a system by observing its external outputs. In complex distributed systems, observability encompasses monitoring, logging, tracing, and metrics collection to gain insights into system behavior and performance.
     - *Example:* "A microservices architecture relies on observability tools like Prometheus for monitoring, Jaeger for distributed tracing, and Elasticsearch for log aggregation to gain visibility into service interactions and diagnose performance issues."
 
 Zero Trust Security Model:
