@@ -10,6 +10,7 @@ title: Predicting UFC 252
 
 
 ![](/images/-ufc252hero.jpg)
+{: #hero}
 
 ## UFC 252: Stipe vs DC
 
