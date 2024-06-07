@@ -29,6 +29,8 @@ _PRO:_ Face detection; significant because we want faces for most of what we wan
 
 _CON:_ Have to make sure it’s the artists face and not just an actor in the video or a random?
 
+---
+
 Q: Can Face detection be run on one machine and then sync results to other Lightrooms?
 
 A: _PRO:_ Syncing between different Lightroom users is a feature.
