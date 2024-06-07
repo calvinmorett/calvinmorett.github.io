@@ -10,6 +10,7 @@ title: Creating Context Menu Shortcuts for Windows
 <p class="meta">Windows, Scripting, Productivity, Context Menu, Shortcuts, Dev Tools, Utility, Software Development, Code, Tutorial</p>
 
 ![Context Hero](/images/-context-hero.png "How to create Context Menu Shortcut Options for Windows.")
+{: #hero}
 
 ## How To: Create Context Menu Shortcuts for Windows
 Have you ever thought about having some utility, at a click of a button, a tool that assists you in your work? Something that would help your productivity, and not impede or hinder your progress? How about something to help you shortcut part of the process or simplify a step?  
