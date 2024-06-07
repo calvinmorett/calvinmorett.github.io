@@ -222,14 +222,12 @@ blockquote::before {
         content: '\2599';
     }
 }
-
 table {
     display: block;
-    width: 100%;
+    max-width: 100%;
     overflow: auto;
     color: #000;
-    font-size: 14px;
-    line-height: 1.5;
+    line-height: 1.1;
 }
 
 thead {
@@ -241,8 +239,7 @@ thead {
 table {
     border-spacing: 0;
     border-collapse: collapse;
-    margin-top: 0;
-    margin-bottom: 16px;
+    margin: 2em 0;
 }
 
 tbody {
@@ -250,18 +247,25 @@ tbody {
 }
 
 table tr {
-    background-color: #a3a3a3;
-    border-top: 1px solid #82878d;
+    background-color: #f1f1f1;
 }
 
 table tr:nth-child(2n) {
-    background-color: #c1c1c1;
+    background-color: rgb(255, 255, 255);
 }
 
 table td,
 table th {
-    padding: 6px 13px;
-    border: 1px solid #222;
+    padding: 6px;
+    border: 1px solid #000;
+}
+
+table td:nth-of-type(odd) {
+    background: hsla(262, 100%, 95%, .22);
+}
+
+table td:nth-of-type(even) {
+    background: hsla(0, 100%, 95%, .22);
 }
 
 table:after,
@@ -272,12 +276,19 @@ table:before {
 
 table thead tr th:nth-child(1),
 table thead tr th:nth-child(2) {
-    padding: 8px 13px;
-    background: #e8e8e8;
+    padding: 6px;
+    background: #000;
     color: #fff;
-    color: #2e2d29;
     border: 0;
-    border-top: 1px solid #000;
+    border: 1px solid #000;
+}
+
+table thead tr th:nth-child(1) {
+    background: hsl(225, 100%, 34%);
+}
+
+table thead tr th:nth-child(2) {
+    background: hsl(0, 100%, 34%);
 }
 
 /*****************************************************************************/
