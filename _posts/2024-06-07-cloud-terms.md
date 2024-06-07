@@ -9,8 +9,6 @@ title: Photoshop: Automation & Actions
 <p class="meta">....</p>
 
 ![TITLE Hero](/images/-TITLE-hero.jpg "...")
-```
-
 
 
 Containerization:
