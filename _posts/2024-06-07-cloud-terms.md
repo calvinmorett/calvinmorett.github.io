@@ -85,9 +85,7 @@ Virtual Private Cloud (VPC):
 
 Data Replication:
    - *Definition:* The process of copying data from one location to another, typically across different geographical regions or data centers, to ensure data redundancy, disaster recovery, and high availability.
-   - *Example:* "Cloud storage services like Azure Storage and Google Cloud Storage offer
-
- built-in data replication features that automatically duplicate data across multiple locations to protect against hardware failures and disasters."
+   - *Example:* "Cloud storage services like Azure Storage and Google Cloud Storage offer built-in data replication features that automatically duplicate data across multiple locations to protect against hardware failures and disasters."
 
 Hybrid Cloud:
    - *Definition:* A cloud computing environment that combines public cloud services with private cloud infrastructure or on-premises resources. It allows organizations to leverage the benefits of both cloud models.
