@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: Image analysis with Adobe Lightroom
+title: Image analysis with Adobe Lightroom?
 ---
 
 {{ page.title }}
