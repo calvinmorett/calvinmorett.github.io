@@ -51,4 +51,4 @@ _PRO:_ be able to flag videos with - flagged or rejected; defaults as unflagged 
 | Flag frames, with flagged/rejected flags  | Associated costs for enterprise: $40 per license   |
 | Faster workflow for deleting flagged images.  |        |
 
-## The real questions to ask is if this is right for what you're looking to do. For me when I needed it to sort frames for videos, I felt it was sufficient for multiple editors, the ease of learning the program, and workflow speed increases, and for the reasons listed above._
+## The real questions to ask is if this is right for what you're looking to do. For me when I needed it to sort frames for videos, I felt it was sufficient for multiple editors, the ease of learning the program, and workflow speed increases, and for the reasons listed above.
