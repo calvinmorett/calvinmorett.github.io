@@ -51,7 +51,8 @@ Note: If you used the Bookmarklet and it removed elements, you didn't want them 
 
 ---
 
-Additionally, and perhaps a more target approach would be to use uBlock Origin, from Raymond Hill. You can add it as an extension to your favorite browers, such as Chrome or Firefox. Then whenever you see an element you don't like, you can right click and select "Block Element".
+Additionally, and perhaps a more target approach would be to use uBlock Origin, from Raymond Hill > https://ublockorigin.com
+You can add it as an extension to your favorite browers, such as Chrome or Firefox. Then whenever you see an element you don't like, you can right click and select "Block Element".
 
 E.g.
 
