@@ -823,3 +823,14 @@ hr {
 #post img {
     margin: 1em 0 2em;
 }
+#post ul li a, #post ul li a:active, #post ul li a:visited {
+    font-weight: bold;
+    text-decoration: none;
+    text-decoration: underline;
+    transition: all .23s ease;
+    color: #001eff;
+}
+#post ul li a:hover, #post ul li a:focus {
+    color: #000;
+    text-decoration: none;
+}
