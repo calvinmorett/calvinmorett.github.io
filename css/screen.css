@@ -12,7 +12,6 @@
 *::before,
 *::after {
     -webkit-box-sizing: inherit;
-    box-sizing: inherit;
     margin: 0;
     padding: 0;
     font-style: normal;
@@ -82,10 +81,9 @@ a:link, a:visited {
 
 a:hover, a:active, a:focus {
     color: #a80000;
-    outline:1;
     box-shadow: none;
     border: none;
-    text-decoration:none;
+    text-decoration: none;
 }
 
 a:focus {
@@ -208,6 +206,7 @@ blockquote::before {
         content: '\2599';
     }
 }
+
 table {
     display: block;
     max-width: 100%;
@@ -325,7 +324,7 @@ ul.posts {
 #post ul li a:link,
 #post ul li a:visited {
     font-weight: bold;
-    transition:  inherit;
+    transition: inherit;
     text-decoration: inherit;
     text-decoration: underline;
     color: #001eff;
@@ -337,6 +336,7 @@ ul.posts {
     text-decoration: none;
     color: #000;
 }
+
 ul.posts span {
     color: #626262;
     font-size: 80%;
@@ -353,7 +353,6 @@ ul.posts span {
 /* Site 
 /* 
 /*****************************************************************************/
-
 .site {
     font-weight: 400;
     text-align: left;
@@ -511,8 +510,6 @@ svg {
 /* Posts 
 /* 
 /*****************************************************************************/
-
-
 .highlight {
     background: transparent;
 }
@@ -547,7 +544,7 @@ svg {
     letter-spacing: 0;
     padding: 2px 8px;
     font-size: 95%;
-    display: inline;
+    display: inline-block;
 }
 
 #post > div > div > pre > code {
@@ -754,6 +751,7 @@ h2 {
     font-weight: 400;
     line-height: 3.5rem;
 }
+
 #post li {
     color: #fff;
     color: #2e2d29;
@@ -802,9 +800,10 @@ hr {
 }
 
 #hero img {
-/*     margin: 1em 0 2em; */
+    /*     margin: 1em 0 2em; */
     min-width: calc(100%);
 }
+
 #hero img,
 #post img {
     margin: 1em 0 2em;
