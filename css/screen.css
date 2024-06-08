@@ -808,3 +808,72 @@ hr {
 #post img {
     margin: 1em 0 2em;
 }
+
+
+
+.title {
+    color: #474747;
+    font-weight: bold;
+    margin-bottom: 2em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index:10000000;
+}
+.site {
+    font-weight: 400;
+    text-align: left;
+    line-height: 1.5em;
+    margin: 5em auto;
+    width: calc(100% - 4em);
+}
+#home {
+    font-size: 4rem;
+    margin: 2em auto 0;
+    width: 80%;
+    text-align:left;
+}
+#home a:link,
+#home a:visited{
+    text-decoration:none;
+    width: 80%;
+    text-align:left;
+    color: rgb(17, 22, 130);
+}
+ul.posts:not(#home ul.posts) {
+    list-style-type: none;
+    margin: 0 0 3em;
+    color:inherit;
+}
+h2{
+    color:#000;
+    padding-bottom: 0;
+    margin-top: 0;
+    line-height: 1;
+    letter-spacing:0;
+    text-align: left;
+}
+#post{
+    margin-bottom: 3em;
+}
+#post h2{
+    margin: 1em 0 .25em;
+    text-align:center;
+}
+.footer a:link, .footer a:visited {
+    outline: 0;
+    color: #ffffff;
+    text-decoration: none;
+    background: transparent;
+    box-shadow: none;
+    padding: 2px;
+    border: none;
+    margin-left: 1em;
+    transition: all .2s ease;
+}
+.footer a:hover, .footer a:active {
+    color: #ffffff;
+    text-decoration: none;
+    background: rgb(17, 22, 130);
+}
