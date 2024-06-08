@@ -75,14 +75,17 @@ input, button, select, textarea {
 
 a:link, a:visited {
     color: #820000;
-    text-decoration: none;
+    text-decoration: underline;
     box-shadow: none;
     border: none;
 }
 
 a:hover, a:active, a:focus {
     color: #a80000;
-    text-decoration: underline;
+    outline:1;
+    box-shadow: none;
+    border: none;
+    text-decoration:none;
 }
 
 a:focus {
@@ -145,14 +148,6 @@ h5 {
     column-rule: 3px solid #171717;
 }
 
-#post ul li a,
-#post ul li a:active,
-#post ul li a:visited {
-    font-weight: bold;
-    text-decoration: none;
-    transition: all .23s ease;
-    color: #82eeff;
-}
 
 em {
     letter-spacing: -0.0123rem;
@@ -327,21 +322,21 @@ ul.posts {
     font-style: italic;
 }
 
-#post ul li a,
-#post ul li a:active,
+#post ul li a:link,
 #post ul li a:visited {
     font-weight: bold;
-    text-decoration: none;
-    transition: all .23s ease;
+    transition:  inherit;
+    text-decoration: inherit;
+    text-decoration: underline;
+    color: #001eff;
 }
 
 #post ul li a:hover,
+#post ul li a:active,
 #post ul li a:focus {
-    color: #fff;
     text-decoration: none;
-    box-shadow: 0 1px;
+    color: #000;
 }
-
 ul.posts span {
     color: #626262;
     font-size: 80%;
@@ -822,15 +817,4 @@ hr {
 #hero img,
 #post img {
     margin: 1em 0 2em;
-}
-#post ul li a, #post ul li a:active, #post ul li a:visited {
-    font-weight: bold;
-    text-decoration: none;
-    text-decoration: underline;
-    transition: all .23s ease;
-    color: #001eff;
-}
-#post ul li a:hover, #post ul li a:focus {
-    color: #000;
-    text-decoration: none;
 }
