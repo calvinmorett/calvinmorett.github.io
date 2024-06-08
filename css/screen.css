@@ -801,4 +801,25 @@ hr {
     box-shadow: none;
 }
 
-#hero img{  margin:1em 0 2em; }
+.site {
+    font-weight: 400;
+    text-align: left;
+    line-height: 1.5em;
+    margin: 2em auto;
+    width: calc(100% - 4em);
+}
+
+#post {
+    column-count: 3;
+    column-gap: 60px;
+    column-rule: 1px solid #b5b5b5;
+}
+
+#hero img {
+/*     margin: 1em 0 2em; */
+    min-width: calc(100%);
+}
+#hero img,
+#post img {
+    margin: 1em 0 2em;
+}
