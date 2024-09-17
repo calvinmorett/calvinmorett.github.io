@@ -406,6 +406,7 @@ ul.posts span {
     text-align: left;
     width: 100%;
     margin: 2em 0;
+    display:block;
 }
 
 .site .footer {
@@ -531,10 +532,11 @@ svg {
     border: none;
     box-shadow: none;
     font-weight: normal;
-    margin: 0;
+    margin: 1em 0;
     letter-spacing: 0;
     padding: 2px 8px;
     font-size: 95%;
+    background: #d4d4d4;
     display: inline-block;
 }
 
