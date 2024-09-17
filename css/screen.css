@@ -62,6 +62,7 @@ html p, body p {
     line-height: 1.45em;
     font-weight: 400;
     margin: 0 0 1em;
+    display: inline;
 }
 
 
