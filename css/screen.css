@@ -143,9 +143,8 @@ h5 {
 #post {
     column-count: 1;
     column-gap: 60px;
-    column-rule: 3px solid #171717;
+    column-rule: 1px solid #c9c9c9;
 }
-
 
 em {
     letter-spacing: -0.0123rem;
@@ -793,11 +792,6 @@ hr {
     background: #c9c9c9;
 }
 
-#post {
-    column-count: 3;
-    column-gap: 60px;
-    column-rule: 1px solid #c9c9c9;
-}
 
 #hero img {
     /*     margin: 1em 0 2em; */
