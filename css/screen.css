@@ -526,8 +526,6 @@ svg {
 }
 
 #post code {
-    color: #0000a3;
-    background: rgb(171 171 171 / 27%);
     border-radius: 35px;
     border: none;
     box-shadow: none;
@@ -540,7 +538,6 @@ svg {
 }
 
 #post > div > div > pre > code {
-    color: lime;
     background: transparent;
     border-radius: 0;
     border: none;
@@ -745,18 +742,18 @@ h2 {
 }
 
 #post pre {
-    box-sizing: border-box;
-    color: #2e2d29;
+    box-sizing: border-box;    
     width: auto;
     overflow: auto;
     overflow-y: hidden;
     line-height: 20px;
     resize: both;
-    border-radius: 20px;
-    background: #373737;
+    border-radius: 20px;  
+    
+    background: #e2e2e2;
     padding: 10px 20px 10px;
     margin: .5em .5em 1em;
-    box-shadow: none;
+    box-shadow: inset 0 0 5px 1px #ccc;
 }
 
 .site {
