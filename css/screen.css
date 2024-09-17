@@ -352,13 +352,7 @@ ul.posts span {
 /* Site 
 /* 
 /*****************************************************************************/
-.site {
-    font-weight: 400;
-    text-align: left;
-    line-height: 1.5em;
-    margin: 2em;
-    width: 725px;
-}
+
 
 .title {
     color: #474747;
@@ -706,10 +700,6 @@ ul, ol {
     padding-top: .16001rem;
 }
 
-
-
-
-
 @media screen and (max-width: 600px) {
     *,
     html,
@@ -779,7 +769,8 @@ h2 {
     text-align: left;
     line-height: 1.5em;
     margin: 2em auto;
-    width: 50vw;
+    margin: 2em;
+    width: 725px;
 }
 
 
@@ -791,19 +782,14 @@ hr {
     height: 1px;
     background: #c9c9c9;
 }
-
-
 #hero img {
     /*     margin: 1em 0 2em; */
     min-width: calc(100%);
 }
-
 #hero img,
 #post img {
     margin: 1em 0 2em;
 }
-
-
 
 .title {
     color: #474747;
@@ -814,13 +800,6 @@ hr {
     left: 0;
     width: 100%;
     z-index:10000000;
-}
-.site {
-    font-weight: 400;
-    text-align: left;
-    line-height: 1.5em;
-    margin: 5em auto;
-    width: calc(100% - 4em);
 }
 #home {
     font-size: 1em;
