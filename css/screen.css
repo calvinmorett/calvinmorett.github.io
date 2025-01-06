@@ -21,10 +21,6 @@
     box-sizing: border-box;
 }
 
-div {
-    white-space: normal;
-}
-
 html {
     font-optical-sizing: auto;
     font-weight: normal;
@@ -39,11 +35,10 @@ html {
 }
 
 html, body {
-    font-size: 14px;
+    font-size: 100%;
     font-family: "Source Sans 3", sans-serif;
     color: #646259;
     word-wrap: break-word;
-    letter-spacing: .05rem;
 }
 
 body {
