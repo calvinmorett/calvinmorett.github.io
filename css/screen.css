@@ -54,12 +54,11 @@ html p, html h1, html h2, html h3, html h4, html h5, body p, body h1, body h2, b
 }
 
 html p, body p {
-    line-height: 1.45em;
-    font-weight: 400;
-    margin: 0 0 1em;
-    display: inline;
+    line-height: inherit;
+    font-weight: normal;
+    margin: 0;
+    display: block;
 }
-
 
 
 input, button, select, textarea {
