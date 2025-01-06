@@ -672,17 +672,16 @@ li pre code {
 #post h1 {
     margin: 0;
     letter-spacing: -0.0123rem;
-    vertical-align: middle;
     display: inline-block;
     position: relative;
     word-wrap: break-word;
     clear: none;
-    overflow: hidden;
-    padding: 0 0 .15em;
-    width: 100%;
-    font-size: 4rem;
+    overflow: visible;
+    padding: 0;
+    font-size: calc(3vw + 2vh);
     line-height: 1;
-    font-weight: 500;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 #post li {
@@ -710,8 +709,8 @@ ul, ol {
     }
 
     .site {
-        width: 90vw;
-        padding: 0 30px;
+        max-width: 90vw;
+        padding: 0 60px;
     }
 
     h1 {
@@ -760,13 +759,12 @@ h2 {
 }
 
 .site {
-    font-weight: 400;
+    font-weight: normal;
     text-align: left;
-    line-height: 1.5em;
-    width: 725px;
-    margin: 5em auto 2em;
+    line-height: 1.42;
+    max-width: 1000px;
+    margin: 12vh auto;
 }
-
 
 hr {
     width: 100%;
