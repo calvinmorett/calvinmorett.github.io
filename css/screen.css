@@ -118,6 +118,22 @@ h1 {
     color: #2e2d29;
 }
 
+
+#home h1 {
+    -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: subpixel-antialiased;
+    font-size: 1em;
+    letter-spacing: 1px;
+    padding: 10px 0 0;
+    line-height: 1.1;
+    vertical-align: middle;
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    color: #ccc;
+    color: #2e2d29;
+}
+
 h2 {
     font-size: 1.65em;
     padding-bottom: .3em;
@@ -135,10 +151,6 @@ h5 {
     line-height: 1.1;
 }
 
-#home h1 {
-    -webkit-font-smoothing: antialiased;
-    -webkit-font-smoothing: subpixel-antialiased;
-}
 
 
 #post {
