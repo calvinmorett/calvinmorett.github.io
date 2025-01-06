@@ -25,28 +25,20 @@ html {
     font-optical-sizing: auto;
     font-weight: normal;
     font-style: normal;
-    font-family: "Source Sans 3", sans-serif;
     -webkit-tap-highlight-color: transparent;
-    line-height: 1.42857;
-    color: #2e2d29;
-    background-color: #f8f8f8;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
 
 html, body {
+    font-weight: normal;
+    font-style: normal;
     font-size: 100%;
     font-family: "Source Sans 3", sans-serif;
-    color: #646259;
     word-wrap: break-word;
-}
-
-body {
-    font-family: "Source Sans 3", sans-serif;
-    font-size: 14px;
-    line-height: 1.42857;
-    color: #2e2d29;
-    background-color: #f8f8f8;
+    color: black;
+    background: white;
+    line-height: inherit;
 }
 
 html p, html h1, html h2, html h3, html h4, html h5, body p, body h1, body h2, body h3, body h4, body h5 {
