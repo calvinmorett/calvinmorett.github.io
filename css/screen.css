@@ -383,9 +383,9 @@ ul.posts span {
     line-height: 1;
     letter-spacing: 0;
     padding: .5em 1em .6em;
-    font-size: 20px;
+    font-size: 1em;
     width: 100%;
-    background: #001eff;
+    background: linear-gradient(89deg, rgba(0, 0, 200, .75), transparent);
 }
 
 .site .title a.extra:hover {
@@ -417,11 +417,11 @@ ul.posts span {
     color: #fff;
     overflow: visible;
     padding: 0;
-    background: #001eff;
+    background: rgba(0, 0, 0, .25);
     text-rendering: auto;
     display: flex;
-    height: 15px;
-    text-shadow: 0 0 0 transparent;
+    height: 16px;
+    text-shadow: none;
     min-width: 100%;
     left: 0;
     bottom: 0;
