@@ -59,7 +59,7 @@ a:active{
 }
 .site{
   max-width:1000px;
-  margin:0 auto;
+  margin:2em auto 0;
 }
 .title{
   background:var(--dark-theme);
@@ -89,9 +89,7 @@ a:active{
   background:rgba(100,200,0,.5);
   outline:1px solid cyan;
 }
-.title{
-  padding-top:1em;
-}
+
 p, ul{
   background:#0a0a43;
   background:var(--dark-theme);
