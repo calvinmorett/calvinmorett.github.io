@@ -195,5 +195,5 @@ table tbody tr td{
 }
 
 img{
-    width: 100%;
+    max-width: 100%;
 }
