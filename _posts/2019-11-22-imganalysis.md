@@ -16,7 +16,6 @@ title: Image analysis with Adobe Lightroom?
 [StackExchange Thread](https://photo.stackexchange.com/questions/20432/is-there-photo-analysis-software-which-will-pre-sort-images-by-identifying-poten)
 
 - Flagged and Unflagged, then make a photo fill the screen. Then I just start hitting the right arrow key or the "x" key. "X" marks the photo as "rejected" and makes it no longer visible. It's easy to jet through 1000 photos in no time. Once I've gone through all the photos, I just choose to Delete Rejected Photos, and I'm done.
-
 - Photoshop Elements does have an autoanalysis function which does some of this - it tries to detect if the photos are blurred, if there are faces in them etc. I wouldn't say it is brilliant. _For example you may actually want out of focus components in your photograph and the automated algorithm will still mark it as blurred._
 
 ## Adobe Lightroom for image analysis, the _pros_ & _cons._
