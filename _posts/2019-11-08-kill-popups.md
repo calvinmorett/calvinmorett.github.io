@@ -38,9 +38,9 @@ Javascript Bookmarklets are little pieces of JavaScript that can do everything l
 
 
 ### Bookmarklet Code:
-```
+`
 JavaScript:(function()%7B(function()%7Bdocument.body.style.overflow %3D 'auto'%3B(function () %7Bvar i%2C elements %3D document.querySelectorAll('body *')%3Bfor (i %3D 0%3B i < elements.length%3B i%2B%2B) %7Bif (getComputedStyle(elements%5Bi%5D).position %3D%3D%3D 'fixed') %7Belements%5Bi%5D.parentNode.removeChild(elements%5Bi%5D)%3B%7D%7D%7D)()%7D)()%7D)()
-```
+`
 
 ![You can also create this by editing a bookmark and add the code like this](/images/-popups.png "Popup Bookmarklet Alt-Creation: You can also create this by editing a bookmark and add the code like this")
 
