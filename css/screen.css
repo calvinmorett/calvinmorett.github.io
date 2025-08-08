@@ -167,3 +167,29 @@ hr{
     border: none;
     padding: 0;
 }
+
+table{
+/*   sans */
+  font-family: "Red Hat Text", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight:600;
+  
+  margin:20px 60px 40px;  
+  display:block;
+}
+table thead{
+  background:#ccc;
+  color:#000;
+}
+table thead tr th{
+  padding:10px 0;
+  margin-bottom:25px;
+  text-align:center;
+  border-right:2px solid var(--dark-theme);
+}
+table tbody tr td{
+  padding:10px;
+  box-shadow:0 1px 0 0;
+  border-right:2px solid var(--dark-theme);
+}
