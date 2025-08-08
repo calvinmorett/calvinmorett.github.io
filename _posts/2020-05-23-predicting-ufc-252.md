@@ -30,8 +30,8 @@ Sig. Strikes Absorbed | Point for Stipe Miocic                                  
 Takedown Average | Point for Stipe Miocic                                            Takedown Accuracy | Point for Daniel Cormier                                         
 Takedown Defense | Point for Daniel Cormier                                          Submission Average | Point for Daniel Cormier    
                                      
-[(6, 11), (76, 71), (240, 235), (80, 72), (4, 4), (52, 52), (3, 2), (56, 56), (2, 1), (37, 44), (73, 77), (0, 0)]                                                           
----------------------                                                                 
+[(6, 11), (76, 71), (240, 235), (80, 72), (4, 4), (52, 52), (3, 2), (56, 56), (2, 1), (37, 44), (73, 77), (0, 0)]     
+
 6 to 4: Stipe Miocic has the most advantages.
 
 ---------------------
