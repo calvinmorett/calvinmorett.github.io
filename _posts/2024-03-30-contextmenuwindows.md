@@ -3,11 +3,12 @@ layout: post
 title: Creating Context Menu Shortcuts for Windows
 ---
 
+<!--Available Meta Tags: Windows, Scripting, Productivity, Context Menu, Shortcuts, Dev Tools, Utility, Software Development, Code, Tutorial, Automation, Design, Adobe, Software, Excel, Bookmarklet, Graphics, Analysis, Sorting, Marketing -->
+<p class="meta">Windows, Scripting, Productivity, Context Menu, Shortcuts, Dev Tools, Utility, Software Development, Code, Tutorial</p>
+
 {{ page.title }}
 ================
 
-<!--Available Meta Tags: Windows, Scripting, Productivity, Context Menu, Shortcuts, Dev Tools, Utility, Software Development, Code, Tutorial, Automation, Design, Adobe, Software, Excel, Bookmarklet, Graphics, Analysis, Sorting, Marketing -->
-<p class="meta">Windows, Scripting, Productivity, Context Menu, Shortcuts, Dev Tools, Utility, Software Development, Code, Tutorial</p>
 
 ![Context Hero](/images/-context-hero.png "How to create Context Menu Shortcut Options for Windows.")
 {: #hero}
