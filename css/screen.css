@@ -133,6 +133,7 @@ h1{font-size:32px;}
 h2{font-size:24px;}
 h3{font-size:18px;}
 
+pre code,
 p code{
   background:#ccc;
   color:#000;
@@ -155,4 +156,14 @@ p code{
   font-optical-sizing: auto;
   font-style: normal;
   font-weight:500;
+}
+
+hr{
+    margin: 20px 60px;
+    height: 2px;
+    background: #fff;
+    width: auto;
+    display: block;
+    border: none;
+    padding: 0;
 }
