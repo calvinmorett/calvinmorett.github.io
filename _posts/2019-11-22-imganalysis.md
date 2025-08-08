@@ -3,10 +3,11 @@ layout: post
 title: Image analysis with Adobe Lightroom?
 ---
 
-{{ page.title }}
-================
 <!--Available Meta Tags: Code, Design, Networking, Adobe, Software, Excel, Bookmarklet, Tutorial, Utility, Graphics, Image Analysis, Sorting, Marketing -->
 <p class="meta">Software, Adobe, Sorting</p>
+
+{{ page.title }}
+================
 
 ![Adobe Lightroom Hero](/images/-lightroom-hero.jpg "lol your film is overexposed cause it is not a darkroom")
 {: #hero}
