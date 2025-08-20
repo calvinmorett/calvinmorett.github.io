@@ -1,12 +1,7 @@
-<nav aria-label="Breadcrumb" class="breadcrumbs">
-  <a href="{{ '/' | relative_url }}">Home</a>
-  
-  {% if page.categories and page.categories.size > 0 %}
-    {% assign category = page.categories[0] %}
-    › <a href="{{ '/categories/' | append: category | relative_url }}">{{ category | capitalize }}</a>
-  {% endif %}
 
-  {% if page.title %}
-    › <span>{{ page.title }}</span>
-  {% endif %}
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+  <a href="{{ '/' | relative_url }}">Home</a> ›
+  <a href="{{ '/articles/' | relative_url }}">Articles</a> ›
+
+  <span>{{ page.title }}</span>
 </nav>
