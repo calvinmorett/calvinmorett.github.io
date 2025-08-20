@@ -196,3 +196,42 @@ table tbody tr td{
 img{
     max-width: 100%;
 }
+
+
+.breadcrumbs{
+  background:var(--dark-theme);
+  padding:10px var(--side-padding);
+  display:block;
+  overflow:hidden;
+  max-width:1000px;
+  margin:0 auto;
+  line-height:1.32;
+  font-size:11px;
+}
+.breadcrumbs a:link,
+.breadcrumbs a:visited{
+  position:relative;
+  color:#fff;
+  text-decoration:underline;
+}
+.breadcrumbs a:after{
+  content:'';
+  width:12px;
+  height:12px;
+  margin-left:5px;
+  vertical-align:middle;
+  display:inline-block;
+  background:transparent url('https://imgeasy.com/share/QRv8SLL75qMc5zTiZVLC.png') no-repeat;
+  background-size:cover;
+  filter:invert(1);
+}
+.breadcrumbs a:link:last-child{
+  text-decoration:none;
+  color:#fff;
+}
+.breadcrumbs a:link:last-child:after{
+  display:none;
+}
+.breadcrumbs a:hover:last-child{
+  color:var(--link-color);
+}
