@@ -19,8 +19,11 @@
   <div class="title">
     <a class="extra" href="/">Home</a>
   </div>
-
-	{% include breadcrumbs.html %}
+	
+ <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="{{ '/' | relative_url }}">Home</a> ›
+      <span>{{ page.title }}</span>
+    </nav>
 
 	<main>{{ content }}</main>
 
