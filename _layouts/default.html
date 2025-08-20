@@ -20,7 +20,9 @@
     <a class="extra" href="/">Home</a>
   </div>
 
- 		{{ content }}
+	{% include breadcrumbs.html %}
+
+	<main>{{ content }}</main>
 
   <div class="footer">
     <div class="contact">
