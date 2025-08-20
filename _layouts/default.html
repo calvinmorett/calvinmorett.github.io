@@ -20,10 +20,12 @@
     <a class="extra" href="/">Stuff</a>
   </div>
 	
- <nav class="breadcrumbs" aria-label="Breadcrumb">
-      <a href="{{ '/' | relative_url }}">Home</a>
-	  <span>{{ page.title }}</span>
-    </nav>
+{% unless page.url == "/" %}
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+  <a href="{{ '/' | relative_url }}">Home</a>
+  <span>{{ page.title }}</span>
+</nav>
+{% endunless %}
 
 	<main>{{ content }}</main>
 
